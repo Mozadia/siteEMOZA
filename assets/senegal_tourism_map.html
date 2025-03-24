@@ -1,0 +1,4066 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6801f85eb88eb1952a30a7b966a55958 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_6801f85eb88eb1952a30a7b966a55958" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6801f85eb88eb1952a30a7b966a55958 = L.map(
+                "map_6801f85eb88eb1952a30a7b966a55958",
+                {
+                    center: [14.4974, -14.4524],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_223311be35a96fcc100a7c162abb21e1 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_6801f85eb88eb1952a30a7b966a55958);
+        
+    
+            var feature_group_e9492cdec394f97836723f21da745f77 = L.featureGroup(
+                {}
+            ).addTo(map_6801f85eb88eb1952a30a7b966a55958);
+        
+    
+            var marker_114ab93272404889196ce2137dc054d8 = L.marker(
+                [14.724858700199404, -17.432742900224657],
+                {}
+            ).addTo(feature_group_e9492cdec394f97836723f21da745f77);
+        
+    
+            var icon_1a2df0300919ce74beac46db76c371af = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_114ab93272404889196ce2137dc054d8.setIcon(icon_1a2df0300919ce74beac46db76c371af);
+        
+    
+        var popup_353fee23af5f1f88b8a8742eddadc05c = L.popup({"maxWidth": 250});
+
+        
+            var html_6be8773bcce85d726acd1769909908a6 = $(`<div id="html_6be8773bcce85d726acd1769909908a6" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Parc Zoologique de Hann</strong><br>             <em>Naturel</em><br>             Un espace éducatif et ludique au cœur de Dakar, offrant la possibilité de découvrir des espèces anim...         </div>         </div>`)[0];
+            popup_353fee23af5f1f88b8a8742eddadc05c.setContent(html_6be8773bcce85d726acd1769909908a6);
+        
+
+        marker_114ab93272404889196ce2137dc054d8.bindPopup(popup_353fee23af5f1f88b8a8742eddadc05c)
+        ;
+
+        
+    
+    
+            marker_114ab93272404889196ce2137dc054d8.bindTooltip(
+                `<div>
+                     Parc Zoologique de Hann
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fed7b016799b951d14ca5298f7de973e = L.marker(
+                [14.347246799990646, -16.920820699297728],
+                {}
+            ).addTo(feature_group_e9492cdec394f97836723f21da745f77);
+        
+    
+            var icon_b27e3f4346655692a28105d65b633724 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fed7b016799b951d14ca5298f7de973e.setIcon(icon_b27e3f4346655692a28105d65b633724);
+        
+    
+        var popup_3719c5c345307c979f500742d3bd679b = L.popup({"maxWidth": 250});
+
+        
+            var html_086b21c5a4cb867810a88e1ef59dd0e1 = $(`<div id="html_086b21c5a4cb867810a88e1ef59dd0e1" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Baobab de Nianing</strong><br>             <em>Naturel</em><br>             Un baobab monumental considéré comme un symbole de la vitalité et de la résilience du Sénégal. Il at...         </div>         </div>`)[0];
+            popup_3719c5c345307c979f500742d3bd679b.setContent(html_086b21c5a4cb867810a88e1ef59dd0e1);
+        
+
+        marker_fed7b016799b951d14ca5298f7de973e.bindPopup(popup_3719c5c345307c979f500742d3bd679b)
+        ;
+
+        
+    
+    
+            marker_fed7b016799b951d14ca5298f7de973e.bindTooltip(
+                `<div>
+                     Baobab de Nianing
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8a51ae6cf7ba9e665e1feb85bec30aab = L.marker(
+                [14.173580400165704, -16.77735219983773],
+                {}
+            ).addTo(feature_group_e9492cdec394f97836723f21da745f77);
+        
+    
+            var icon_e872c04bfd0c36204c4d986a74ce136f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8a51ae6cf7ba9e665e1feb85bec30aab.setIcon(icon_e872c04bfd0c36204c4d986a74ce136f);
+        
+    
+        var popup_acff513818ef92233db36d6ca416fc10 = L.popup({"maxWidth": 250});
+
+        
+            var html_8084ad86348558fd9af6332abbd16209 = $(`<div id="html_8084ad86348558fd9af6332abbd16209" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Baobab Sacré</strong><br>             <em>Naturel</em><br>             Ce baobab sacré est entouré de mystères et de rituels. Il est souvent utilisé pour des cérémonies tr...         </div>         </div>`)[0];
+            popup_acff513818ef92233db36d6ca416fc10.setContent(html_8084ad86348558fd9af6332abbd16209);
+        
+
+        marker_8a51ae6cf7ba9e665e1feb85bec30aab.bindPopup(popup_acff513818ef92233db36d6ca416fc10)
+        ;
+
+        
+    
+    
+            marker_8a51ae6cf7ba9e665e1feb85bec30aab.bindTooltip(
+                `<div>
+                     Baobab Sacré
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_92f9faee9ff1b7c7a65d9b19d1634589 = L.marker(
+                [14.556692000239165, -17.018582999940495],
+                {}
+            ).addTo(feature_group_e9492cdec394f97836723f21da745f77);
+        
+    
+            var icon_1f40c214746bebedfd96f0ad3422b724 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_92f9faee9ff1b7c7a65d9b19d1634589.setIcon(icon_1f40c214746bebedfd96f0ad3422b724);
+        
+    
+        var popup_3c43d81462f1eeb525c84b29e8d9d9cf = L.popup({"maxWidth": 250});
+
+        
+            var html_7a0ca74f917ad01f3e6a9a4bd5bfbb84 = $(`<div id="html_7a0ca74f917ad01f3e6a9a4bd5bfbb84" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Ranch de Bandia</strong><br>             <em>Naturel</em><br>             Un refuge pour les espèces sauvages où les visiteurs peuvent profiter de safaris et observer les ani...         </div>         </div>`)[0];
+            popup_3c43d81462f1eeb525c84b29e8d9d9cf.setContent(html_7a0ca74f917ad01f3e6a9a4bd5bfbb84);
+        
+
+        marker_92f9faee9ff1b7c7a65d9b19d1634589.bindPopup(popup_3c43d81462f1eeb525c84b29e8d9d9cf)
+        ;
+
+        
+    
+    
+            marker_92f9faee9ff1b7c7a65d9b19d1634589.bindTooltip(
+                `<div>
+                     Ranch de Bandia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d5d9f9164fddde0010f4a3e3ed9bad99 = L.marker(
+                [14.610707200685034, -16.93586040005504],
+                {}
+            ).addTo(feature_group_e9492cdec394f97836723f21da745f77);
+        
+    
+            var icon_21a12c585c632ca0600052307ca9ce27 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d5d9f9164fddde0010f4a3e3ed9bad99.setIcon(icon_21a12c585c632ca0600052307ca9ce27);
+        
+    
+        var popup_0eefb23e2066a24dd5e12ca2ef5a7c1b = L.popup({"maxWidth": 250});
+
+        
+            var html_3d26a388ada3c8ebe8f1e708afec18d5 = $(`<div id="html_3d26a388ada3c8ebe8f1e708afec18d5" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Réserve de Bandia</strong><br>             <em>Naturel</em><br>             Une réserve remarquable connue pour ses efforts de protection de l'écosystème local. Les amateurs de...         </div>         </div>`)[0];
+            popup_0eefb23e2066a24dd5e12ca2ef5a7c1b.setContent(html_3d26a388ada3c8ebe8f1e708afec18d5);
+        
+
+        marker_d5d9f9164fddde0010f4a3e3ed9bad99.bindPopup(popup_0eefb23e2066a24dd5e12ca2ef5a7c1b)
+        ;
+
+        
+    
+    
+            marker_d5d9f9164fddde0010f4a3e3ed9bad99.bindTooltip(
+                `<div>
+                     Réserve de Bandia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_af4686d1cc0ba2ca1fb77c784874f94f = L.marker(
+                [14.540379100652208, -17.104345999387988],
+                {}
+            ).addTo(feature_group_e9492cdec394f97836723f21da745f77);
+        
+    
+            var icon_e5f7fe2fb3b0f61589b9c236ccf88d26 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_af4686d1cc0ba2ca1fb77c784874f94f.setIcon(icon_e5f7fe2fb3b0f61589b9c236ccf88d26);
+        
+    
+        var popup_2e1169d4c2fa022706000ac7ad96d7f6 = L.popup({"maxWidth": 250});
+
+        
+            var html_7e8ec179c79d6ae4f4d2c145a06e875e = $(`<div id="html_7e8ec179c79d6ae4f4d2c145a06e875e" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Réserve de Popenguine</strong><br>             <em>Naturel</em><br>             Un site d'une beauté exceptionnelle, parfait pour les balades en pirogue et l'observation des oiseau...         </div>         </div>`)[0];
+            popup_2e1169d4c2fa022706000ac7ad96d7f6.setContent(html_7e8ec179c79d6ae4f4d2c145a06e875e);
+        
+
+        marker_af4686d1cc0ba2ca1fb77c784874f94f.bindPopup(popup_2e1169d4c2fa022706000ac7ad96d7f6)
+        ;
+
+        
+    
+    
+            marker_af4686d1cc0ba2ca1fb77c784874f94f.bindTooltip(
+                `<div>
+                     Réserve de Popenguine
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f179bdd2fbb5bc06feee119f6a1b8138 = L.marker(
+                [14.496083400297351, -17.085123900562625],
+                {}
+            ).addTo(feature_group_e9492cdec394f97836723f21da745f77);
+        
+    
+            var icon_493db29c560281f1d094ac456bd83be3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f179bdd2fbb5bc06feee119f6a1b8138.setIcon(icon_493db29c560281f1d094ac456bd83be3);
+        
+    
+        var popup_7738d5e7ce3bf8cd96cd232b582a576c = L.popup({"maxWidth": 250});
+
+        
+            var html_750469b2cacb3381679faffaf22263cd = $(`<div id="html_750469b2cacb3381679faffaf22263cd" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Lagune de la Somone</strong><br>             <em>Naturel</em><br>             Un parc national célèbre pour sa richesse en biodiversité, en particulier les oiseaux migrateurs. Le...         </div>         </div>`)[0];
+            popup_7738d5e7ce3bf8cd96cd232b582a576c.setContent(html_750469b2cacb3381679faffaf22263cd);
+        
+
+        marker_f179bdd2fbb5bc06feee119f6a1b8138.bindPopup(popup_7738d5e7ce3bf8cd96cd232b582a576c)
+        ;
+
+        
+    
+    
+            marker_f179bdd2fbb5bc06feee119f6a1b8138.bindTooltip(
+                `<div>
+                     Lagune de la Somone
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_226261db14ac87375a94cc10cc523bd4 = L.marker(
+                [16.39932099951469, -16.24044680033858],
+                {}
+            ).addTo(feature_group_e9492cdec394f97836723f21da745f77);
+        
+    
+            var icon_77b5bcdd25a9bc785d6644bea926610a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_226261db14ac87375a94cc10cc523bd4.setIcon(icon_77b5bcdd25a9bc785d6644bea926610a);
+        
+    
+        var popup_e619372cdf0ae22647f32dce773e8ffd = L.popup({"maxWidth": 250});
+
+        
+            var html_e346ec214114c7bf6d63d133e73c16cb = $(`<div id="html_e346ec214114c7bf6d63d133e73c16cb" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Parc National de Djoudj</strong><br>             <em>Naturel</em><br>             Un lieu unique avec des plages de sable doré et une vue imprenable sur l'océan. Idéal pour les activ...         </div>         </div>`)[0];
+            popup_e619372cdf0ae22647f32dce773e8ffd.setContent(html_e346ec214114c7bf6d63d133e73c16cb);
+        
+
+        marker_226261db14ac87375a94cc10cc523bd4.bindPopup(popup_e619372cdf0ae22647f32dce773e8ffd)
+        ;
+
+        
+    
+    
+            marker_226261db14ac87375a94cc10cc523bd4.bindTooltip(
+                `<div>
+                     Parc National de Djoudj
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cf078ae0fc94fd910a23bf6beaaf2e2f = L.marker(
+                [15.93271480001796, -16.513480500888836],
+                {}
+            ).addTo(feature_group_e9492cdec394f97836723f21da745f77);
+        
+    
+            var icon_3876dbdc48394fdd2c3d05f0d640ebee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cf078ae0fc94fd910a23bf6beaaf2e2f.setIcon(icon_3876dbdc48394fdd2c3d05f0d640ebee);
+        
+    
+        var popup_f38e965111a609a2314c0aaccdd6fe39 = L.popup({"maxWidth": 250});
+
+        
+            var html_28078c8a3286524131465ec932a4d37a = $(`<div id="html_28078c8a3286524131465ec932a4d37a" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Langue de Barbarie</strong><br>             <em>Naturel</em><br>             Une cascade majestueuse entourée de végétation luxuriante, offrant un cadre idéal pour la randonnée ...         </div>         </div>`)[0];
+            popup_f38e965111a609a2314c0aaccdd6fe39.setContent(html_28078c8a3286524131465ec932a4d37a);
+        
+
+        marker_cf078ae0fc94fd910a23bf6beaaf2e2f.bindPopup(popup_f38e965111a609a2314c0aaccdd6fe39)
+        ;
+
+        
+    
+    
+            marker_cf078ae0fc94fd910a23bf6beaaf2e2f.bindTooltip(
+                `<div>
+                     Langue de Barbarie
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_452704ef643dbb9a8acca4de47f0eb29 = L.marker(
+                [12.384533838893848, -12.325867811621134],
+                {}
+            ).addTo(feature_group_e9492cdec394f97836723f21da745f77);
+        
+    
+            var icon_d76dd4162d5364fc3f7a2be11a33bd24 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_452704ef643dbb9a8acca4de47f0eb29.setIcon(icon_d76dd4162d5364fc3f7a2be11a33bd24);
+        
+    
+        var popup_672edbfee7d418104b1569aae3ce96f8 = L.popup({"maxWidth": 250});
+
+        
+            var html_fea277f02eff9772da3a41d43df02575 = $(`<div id="html_fea277f02eff9772da3a41d43df02575" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Cascade de Dindefelo</strong><br>             <em>Naturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_672edbfee7d418104b1569aae3ce96f8.setContent(html_fea277f02eff9772da3a41d43df02575);
+        
+
+        marker_452704ef643dbb9a8acca4de47f0eb29.bindPopup(popup_672edbfee7d418104b1569aae3ce96f8)
+        ;
+
+        
+    
+    
+            marker_452704ef643dbb9a8acca4de47f0eb29.bindTooltip(
+                `<div>
+                     Cascade de Dindefelo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_21e88215d9f8ec631741996fb34f2285 = L.marker(
+                [14.129477899492699, -12.44094230030686],
+                {}
+            ).addTo(feature_group_e9492cdec394f97836723f21da745f77);
+        
+    
+            var icon_327ce6b89c5ad2ec6128cf589e776393 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_21e88215d9f8ec631741996fb34f2285.setIcon(icon_327ce6b89c5ad2ec6128cf589e776393);
+        
+    
+        var popup_fb509b036998401a170681a51f09e485 = L.popup({"maxWidth": 250});
+
+        
+            var html_665d1dc23d17afe7076ab8fecc31e95c = $(`<div id="html_665d1dc23d17afe7076ab8fecc31e95c" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>RNC de Boundou</strong><br>             <em>Naturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_fb509b036998401a170681a51f09e485.setContent(html_665d1dc23d17afe7076ab8fecc31e95c);
+        
+
+        marker_21e88215d9f8ec631741996fb34f2285.bindPopup(popup_fb509b036998401a170681a51f09e485)
+        ;
+
+        
+    
+    
+            marker_21e88215d9f8ec631741996fb34f2285.bindTooltip(
+                `<div>
+                     RNC de Boundou
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6dc170b599300fcb0e92bc91284365ba = L.marker(
+                [13.053815200216972, -12.899899099930542],
+                {}
+            ).addTo(feature_group_e9492cdec394f97836723f21da745f77);
+        
+    
+            var icon_5c509ed12154481248f4012485b95844 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6dc170b599300fcb0e92bc91284365ba.setIcon(icon_5c509ed12154481248f4012485b95844);
+        
+    
+        var popup_bafa94de46379b0f3b7c3dd836588447 = L.popup({"maxWidth": 250});
+
+        
+            var html_b484aec3a8a18902330658c5adb50ff7 = $(`<div id="html_b484aec3a8a18902330658c5adb50ff7" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Parc National de Niokolo Koba</strong><br>             <em>Naturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_bafa94de46379b0f3b7c3dd836588447.setContent(html_b484aec3a8a18902330658c5adb50ff7);
+        
+
+        marker_6dc170b599300fcb0e92bc91284365ba.bindPopup(popup_bafa94de46379b0f3b7c3dd836588447)
+        ;
+
+        
+    
+    
+            marker_6dc170b599300fcb0e92bc91284365ba.bindTooltip(
+                `<div>
+                     Parc National de Niokolo Koba
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3acdfaf942f9ce37f0068f2caca617ef = L.marker(
+                [13.653674900812149, -16.446552199704033],
+                {}
+            ).addTo(feature_group_e9492cdec394f97836723f21da745f77);
+        
+    
+            var icon_ff349c564c38b74aa09aa09b1c35eab2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3acdfaf942f9ce37f0068f2caca617ef.setIcon(icon_ff349c564c38b74aa09aa09b1c35eab2);
+        
+    
+        var popup_e12c7311e482fb2693450b1a54572034 = L.popup({"maxWidth": 250});
+
+        
+            var html_b4e586d1987b0966c401754cb1fe6cf2 = $(`<div id="html_b4e586d1987b0966c401754cb1fe6cf2" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Réserve de Fathala</strong><br>             <em>Naturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_e12c7311e482fb2693450b1a54572034.setContent(html_b4e586d1987b0966c401754cb1fe6cf2);
+        
+
+        marker_3acdfaf942f9ce37f0068f2caca617ef.bindPopup(popup_e12c7311e482fb2693450b1a54572034)
+        ;
+
+        
+    
+    
+            marker_3acdfaf942f9ce37f0068f2caca617ef.bindTooltip(
+                `<div>
+                     Réserve de Fathala
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ccf132bb1168a37d3b06881815435db2 = L.marker(
+                [14.015725000140053, -16.76477989984993],
+                {}
+            ).addTo(feature_group_e9492cdec394f97836723f21da745f77);
+        
+    
+            var icon_2928bdaa9a9abb3880c1499683e03c1c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ccf132bb1168a37d3b06881815435db2.setIcon(icon_2928bdaa9a9abb3880c1499683e03c1c);
+        
+    
+        var popup_440399d0169cfde0c191e4fa9aac4024 = L.popup({"maxWidth": 250});
+
+        
+            var html_d2dce4ff0ce0c960cbaad9173e03e319 = $(`<div id="html_d2dce4ff0ce0c960cbaad9173e03e319" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Palmarin</strong><br>             <em>Naturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_440399d0169cfde0c191e4fa9aac4024.setContent(html_d2dce4ff0ce0c960cbaad9173e03e319);
+        
+
+        marker_ccf132bb1168a37d3b06881815435db2.bindPopup(popup_440399d0169cfde0c191e4fa9aac4024)
+        ;
+
+        
+    
+    
+            marker_ccf132bb1168a37d3b06881815435db2.bindTooltip(
+                `<div>
+                     Palmarin
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_577149d435a687614e3ca3607b43f72a = L.marker(
+                [12.55834449999514, -15.688356599350092],
+                {}
+            ).addTo(feature_group_e9492cdec394f97836723f21da745f77);
+        
+    
+            var icon_cf4dce40166e243bcfa7f40937ce1192 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_577149d435a687614e3ca3607b43f72a.setIcon(icon_cf4dce40166e243bcfa7f40937ce1192);
+        
+    
+        var popup_999b04ec3cec66cfb34102665859f5c1 = L.popup({"maxWidth": 250});
+
+        
+            var html_b18a280a18ec1d6c1326029587a88eb1 = $(`<div id="html_b18a280a18ec1d6c1326029587a88eb1" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Forêt de Diattacounda</strong><br>             <em>Naturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_999b04ec3cec66cfb34102665859f5c1.setContent(html_b18a280a18ec1d6c1326029587a88eb1);
+        
+
+        marker_577149d435a687614e3ca3607b43f72a.bindPopup(popup_999b04ec3cec66cfb34102665859f5c1)
+        ;
+
+        
+    
+    
+            marker_577149d435a687614e3ca3607b43f72a.bindTooltip(
+                `<div>
+                     Forêt de Diattacounda
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e43d00ed0d32e1d94f0f94f1212184e4 = L.marker(
+                [12.663221099976244, -16.750347700086156],
+                {}
+            ).addTo(feature_group_e9492cdec394f97836723f21da745f77);
+        
+    
+            var icon_2b9ff0e6de425d8e5ab6c4e0f3790860 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e43d00ed0d32e1d94f0f94f1212184e4.setIcon(icon_2b9ff0e6de425d8e5ab6c4e0f3790860);
+        
+    
+        var popup_cb416c7a7aa91f46d5cb37407169ebfc = L.popup({"maxWidth": 250});
+
+        
+            var html_430d1717fac4146442f0ad81d8f0ed29 = $(`<div id="html_430d1717fac4146442f0ad81d8f0ed29" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Réserve de Kalissaye</strong><br>             <em>Naturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_cb416c7a7aa91f46d5cb37407169ebfc.setContent(html_430d1717fac4146442f0ad81d8f0ed29);
+        
+
+        marker_e43d00ed0d32e1d94f0f94f1212184e4.bindPopup(popup_cb416c7a7aa91f46d5cb37407169ebfc)
+        ;
+
+        
+    
+    
+            marker_e43d00ed0d32e1d94f0f94f1212184e4.bindTooltip(
+                `<div>
+                     Réserve de Kalissaye
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3c34b653c3cbd1bc56346cf725aa06e1 = L.marker(
+                [15.555744966045696, -16.63394252414554],
+                {}
+            ).addTo(feature_group_e9492cdec394f97836723f21da745f77);
+        
+    
+            var icon_61f0ebf76ae0b5c0f23ec027270a2201 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3c34b653c3cbd1bc56346cf725aa06e1.setIcon(icon_61f0ebf76ae0b5c0f23ec027270a2201);
+        
+    
+        var popup_2ebf960b31137bc865666800ff3d0678 = L.popup({"maxWidth": 250});
+
+        
+            var html_d341531539a06fea24ab86485ba2ad65 = $(`<div id="html_d341531539a06fea24ab86485ba2ad65" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Lompoul</strong><br>             <em>Naturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_2ebf960b31137bc865666800ff3d0678.setContent(html_d341531539a06fea24ab86485ba2ad65);
+        
+
+        marker_3c34b653c3cbd1bc56346cf725aa06e1.bindPopup(popup_2ebf960b31137bc865666800ff3d0678)
+        ;
+
+        
+    
+    
+            marker_3c34b653c3cbd1bc56346cf725aa06e1.bindTooltip(
+                `<div>
+                     Lompoul
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cd7ae15d2a21f7c0569d28ff90985533 = L.marker(
+                [16.451631125175748, -15.977867927080295],
+                {}
+            ).addTo(feature_group_e9492cdec394f97836723f21da745f77);
+        
+    
+            var icon_f26367e61564ce044fef996634d270a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cd7ae15d2a21f7c0569d28ff90985533.setIcon(icon_f26367e61564ce044fef996634d270a6);
+        
+    
+        var popup_515c37a62619098cb146851b46abc5d0 = L.popup({"maxWidth": 250});
+
+        
+            var html_3bb94a8da5c5b26e8d2d253ec267b690 = $(`<div id="html_3bb94a8da5c5b26e8d2d253ec267b690" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>RNC de Tocc Tocc</strong><br>             <em>Naturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_515c37a62619098cb146851b46abc5d0.setContent(html_3bb94a8da5c5b26e8d2d253ec267b690);
+        
+
+        marker_cd7ae15d2a21f7c0569d28ff90985533.bindPopup(popup_515c37a62619098cb146851b46abc5d0)
+        ;
+
+        
+    
+    
+            marker_cd7ae15d2a21f7c0569d28ff90985533.bindTooltip(
+                `<div>
+                     RNC de Tocc Tocc
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0cfb404bb2fe4ef37092fc2f8f4cf6cf = L.marker(
+                [16.034155047407612, -15.923462334347816],
+                {}
+            ).addTo(feature_group_e9492cdec394f97836723f21da745f77);
+        
+    
+            var icon_be04f4600dedd93d194ff3639a272683 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0cfb404bb2fe4ef37092fc2f8f4cf6cf.setIcon(icon_be04f4600dedd93d194ff3639a272683);
+        
+    
+        var popup_918deefc7d5f72752dcff79b100f915c = L.popup({"maxWidth": 250});
+
+        
+            var html_093eabe130c80c2e5d58dff349739d75 = $(`<div id="html_093eabe130c80c2e5d58dff349739d75" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Lac de Guiers</strong><br>             <em>Naturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_918deefc7d5f72752dcff79b100f915c.setContent(html_093eabe130c80c2e5d58dff349739d75);
+        
+
+        marker_0cfb404bb2fe4ef37092fc2f8f4cf6cf.bindPopup(popup_918deefc7d5f72752dcff79b100f915c)
+        ;
+
+        
+    
+    
+            marker_0cfb404bb2fe4ef37092fc2f8f4cf6cf.bindTooltip(
+                `<div>
+                     Lac de Guiers
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_78ebd85bd47ab36359b92ee120341c3d = L.marker(
+                [15.709695586110437, -16.559964159399915],
+                {}
+            ).addTo(feature_group_e9492cdec394f97836723f21da745f77);
+        
+    
+            var icon_e3ad2a0c1b691a250149c38310661f3b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_78ebd85bd47ab36359b92ee120341c3d.setIcon(icon_e3ad2a0c1b691a250149c38310661f3b);
+        
+    
+        var popup_69e571d2bb0e754ed0e65c70ae763f23 = L.popup({"maxWidth": 250});
+
+        
+            var html_129323c6b7ed00811eadbbfdbd05fb89 = $(`<div id="html_129323c6b7ed00811eadbbfdbd05fb89" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Potou sur mer</strong><br>             <em>Naturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_69e571d2bb0e754ed0e65c70ae763f23.setContent(html_129323c6b7ed00811eadbbfdbd05fb89);
+        
+
+        marker_78ebd85bd47ab36359b92ee120341c3d.bindPopup(popup_69e571d2bb0e754ed0e65c70ae763f23)
+        ;
+
+        
+    
+    
+            marker_78ebd85bd47ab36359b92ee120341c3d.bindTooltip(
+                `<div>
+                     Potou sur mer
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a3403c90b24ad583a2a3bb0f7ee43030 = L.marker(
+                [14.566941799919379, -17.126298300232136],
+                {}
+            ).addTo(feature_group_e9492cdec394f97836723f21da745f77);
+        
+    
+            var icon_06e6247b535e12fa068983b813a7d40b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a3403c90b24ad583a2a3bb0f7ee43030.setIcon(icon_06e6247b535e12fa068983b813a7d40b);
+        
+    
+        var popup_f3b2fbf6c15acfbdbd54bb635de23dc4 = L.popup({"maxWidth": 250});
+
+        
+            var html_2d481f21f3c3a0eb92521e049445a691 = $(`<div id="html_2d481f21f3c3a0eb92521e049445a691" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Ndayane</strong><br>             <em>Naturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_f3b2fbf6c15acfbdbd54bb635de23dc4.setContent(html_2d481f21f3c3a0eb92521e049445a691);
+        
+
+        marker_a3403c90b24ad583a2a3bb0f7ee43030.bindPopup(popup_f3b2fbf6c15acfbdbd54bb635de23dc4)
+        ;
+
+        
+    
+    
+            marker_a3403c90b24ad583a2a3bb0f7ee43030.bindTooltip(
+                `<div>
+                     Ndayane
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_283a072f1f254b68586223985d22b522 = L.marker(
+                [15.376338100770754, -16.446476600779132],
+                {}
+            ).addTo(feature_group_e9492cdec394f97836723f21da745f77);
+        
+    
+            var icon_0647b0eea9e1df9ef521f9e16802e10d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_283a072f1f254b68586223985d22b522.setIcon(icon_0647b0eea9e1df9ef521f9e16802e10d);
+        
+    
+        var popup_cb8188427cc8992f8d83cf221ec99ce4 = L.popup({"maxWidth": 250});
+
+        
+            var html_36d6ae412ee3303f0ae7d837ab61f657 = $(`<div id="html_36d6ae412ee3303f0ae7d837ab61f657" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Haras Kébémer</strong><br>             <em>Naturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_cb8188427cc8992f8d83cf221ec99ce4.setContent(html_36d6ae412ee3303f0ae7d837ab61f657);
+        
+
+        marker_283a072f1f254b68586223985d22b522.bindPopup(popup_cb8188427cc8992f8d83cf221ec99ce4)
+        ;
+
+        
+    
+    
+            marker_283a072f1f254b68586223985d22b522.bindTooltip(
+                `<div>
+                     Haras Kébémer
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d19c5844ae5c3f5b444c141457dcdac4 = L.marker(
+                [15.9236319280289, -16.49123079608578],
+                {}
+            ).addTo(feature_group_e9492cdec394f97836723f21da745f77);
+        
+    
+            var icon_a7f3d46425354d2175b27c243ba7714c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d19c5844ae5c3f5b444c141457dcdac4.setIcon(icon_a7f3d46425354d2175b27c243ba7714c);
+        
+    
+        var popup_629c0f55d96e46dadda4e0436d64583c = L.popup({"maxWidth": 250});
+
+        
+            var html_4d1fdabedeb04ddf1b149e10a6e95af9 = $(`<div id="html_4d1fdabedeb04ddf1b149e10a6e95af9" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Reserve de Geumbeul</strong><br>             <em>Naturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_629c0f55d96e46dadda4e0436d64583c.setContent(html_4d1fdabedeb04ddf1b149e10a6e95af9);
+        
+
+        marker_d19c5844ae5c3f5b444c141457dcdac4.bindPopup(popup_629c0f55d96e46dadda4e0436d64583c)
+        ;
+
+        
+    
+    
+            marker_d19c5844ae5c3f5b444c141457dcdac4.bindTooltip(
+                `<div>
+                     Reserve de Geumbeul
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_de18952179e2757ea2b1c55cf4e54af5 = L.marker(
+                [16.64775657637552, -14.953587532193055],
+                {}
+            ).addTo(feature_group_e9492cdec394f97836723f21da745f77);
+        
+    
+            var icon_8a9f1c3438f238cfb9b78f5bdc075797 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_de18952179e2757ea2b1c55cf4e54af5.setIcon(icon_8a9f1c3438f238cfb9b78f5bdc075797);
+        
+    
+        var popup_b19f0ba72f93421471e32681ad0c4419 = L.popup({"maxWidth": 250});
+
+        
+            var html_7def01f5c3270363423ac8a800eaa689 = $(`<div id="html_7def01f5c3270363423ac8a800eaa689" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Quai de Podor</strong><br>             <em>Naturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_b19f0ba72f93421471e32681ad0c4419.setContent(html_7def01f5c3270363423ac8a800eaa689);
+        
+
+        marker_de18952179e2757ea2b1c55cf4e54af5.bindPopup(popup_b19f0ba72f93421471e32681ad0c4419)
+        ;
+
+        
+    
+    
+            marker_de18952179e2757ea2b1c55cf4e54af5.bindTooltip(
+                `<div>
+                     Quai de Podor
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fd08f78ad038dc053f258e8381625f67 = L.marker(
+                [12.410636993042454, -12.285602331695694],
+                {}
+            ).addTo(feature_group_e9492cdec394f97836723f21da745f77);
+        
+    
+            var icon_10b4eb46940b88f4be5fd3b48e8a0f79 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fd08f78ad038dc053f258e8381625f67.setIcon(icon_10b4eb46940b88f4be5fd3b48e8a0f79);
+        
+    
+        var popup_8c4d4a64f92d8cdfabed992fbeae9c62 = L.popup({"maxWidth": 250});
+
+        
+            var html_f9b847e530692c069da4b53c03b02544 = $(`<div id="html_f9b847e530692c069da4b53c03b02544" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Cascade de Ségou</strong><br>             <em>Naturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_8c4d4a64f92d8cdfabed992fbeae9c62.setContent(html_f9b847e530692c069da4b53c03b02544);
+        
+
+        marker_fd08f78ad038dc053f258e8381625f67.bindPopup(popup_8c4d4a64f92d8cdfabed992fbeae9c62)
+        ;
+
+        
+    
+    
+            marker_fd08f78ad038dc053f258e8381625f67.bindTooltip(
+                `<div>
+                     Cascade de Ségou
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6d461d8b6f4c209303227c8f84ba319d = L.marker(
+                [12.35921189609431, -12.328706830187564],
+                {}
+            ).addTo(feature_group_e9492cdec394f97836723f21da745f77);
+        
+    
+            var icon_ee6ead49b8402ec56ee2cf4961e02eda = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6d461d8b6f4c209303227c8f84ba319d.setIcon(icon_ee6ead49b8402ec56ee2cf4961e02eda);
+        
+    
+        var popup_350ee3ea45a783e349c42759942f1f2e = L.popup({"maxWidth": 250});
+
+        
+            var html_03598e541dd037aef24ede080913d3c1 = $(`<div id="html_03598e541dd037aef24ede080913d3c1" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Grotte de Dande</strong><br>             <em>Naturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_350ee3ea45a783e349c42759942f1f2e.setContent(html_03598e541dd037aef24ede080913d3c1);
+        
+
+        marker_6d461d8b6f4c209303227c8f84ba319d.bindPopup(popup_350ee3ea45a783e349c42759942f1f2e)
+        ;
+
+        
+    
+    
+            marker_6d461d8b6f4c209303227c8f84ba319d.bindTooltip(
+                `<div>
+                     Grotte de Dande
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_98f0ffed4a079142136a51795a07f6e2 = L.marker(
+                [14.126596678206626, -16.16879638362431],
+                {}
+            ).addTo(feature_group_e9492cdec394f97836723f21da745f77);
+        
+    
+            var icon_21f7dd02b2da43e055b142a28852f64d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_98f0ffed4a079142136a51795a07f6e2.setIcon(icon_21f7dd02b2da43e055b142a28852f64d);
+        
+    
+        var popup_12f0796b661fed6ac11366f4419a65d1 = L.popup({"maxWidth": 250});
+
+        
+            var html_7fe973c6def0270b289e45093b563b21 = $(`<div id="html_7fe973c6def0270b289e45093b563b21" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Reserve de Fatalah</strong><br>             <em>Naturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_12f0796b661fed6ac11366f4419a65d1.setContent(html_7fe973c6def0270b289e45093b563b21);
+        
+
+        marker_98f0ffed4a079142136a51795a07f6e2.bindPopup(popup_12f0796b661fed6ac11366f4419a65d1)
+        ;
+
+        
+    
+    
+            marker_98f0ffed4a079142136a51795a07f6e2.bindTooltip(
+                `<div>
+                     Reserve de Fatalah
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d49d8b48b2565dd4b8a9f8a620191c6e = L.marker(
+                [14.0646642341274, -16.40034703952802],
+                {}
+            ).addTo(feature_group_e9492cdec394f97836723f21da745f77);
+        
+    
+            var icon_c499d1f8fc851edd37924bc0a37d94c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d49d8b48b2565dd4b8a9f8a620191c6e.setIcon(icon_c499d1f8fc851edd37924bc0a37d94c4);
+        
+    
+        var popup_a4ffa5b29d98830c4f5dc007fd99757a = L.popup({"maxWidth": 250});
+
+        
+            var html_a3fc59bfada66cd92e0594c41b46f7a9 = $(`<div id="html_a3fc59bfada66cd92e0594c41b46f7a9" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Reposoir aux oiseaux de Cousnar</strong><br>             <em>Naturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_a4ffa5b29d98830c4f5dc007fd99757a.setContent(html_a3fc59bfada66cd92e0594c41b46f7a9);
+        
+
+        marker_d49d8b48b2565dd4b8a9f8a620191c6e.bindPopup(popup_a4ffa5b29d98830c4f5dc007fd99757a)
+        ;
+
+        
+    
+    
+            marker_d49d8b48b2565dd4b8a9f8a620191c6e.bindTooltip(
+                `<div>
+                     Reposoir aux oiseaux de Cousnar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9c910492799f7db7e29ad5261c2692cf = L.marker(
+                [14.678179400110745, -17.462742700531546],
+                {}
+            ).addTo(feature_group_e9492cdec394f97836723f21da745f77);
+        
+    
+            var icon_e85b9cd877e13e721d6878dcf0aea164 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9c910492799f7db7e29ad5261c2692cf.setIcon(icon_e85b9cd877e13e721d6878dcf0aea164);
+        
+    
+        var popup_ccbe1e3f6a8dafa19d4672d1d8722a1b = L.popup({"maxWidth": 250});
+
+        
+            var html_1940f15c376307518b02b9835f82d4f0 = $(`<div id="html_1940f15c376307518b02b9835f82d4f0" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>ile de la Madeleine</strong><br>             <em>Naturel</em><br>             Située près de Dakar, cette île est un parc national célèbre pour sa biodiversité, notamment ses nom...         </div>         </div>`)[0];
+            popup_ccbe1e3f6a8dafa19d4672d1d8722a1b.setContent(html_1940f15c376307518b02b9835f82d4f0);
+        
+
+        marker_9c910492799f7db7e29ad5261c2692cf.bindPopup(popup_ccbe1e3f6a8dafa19d4672d1d8722a1b)
+        ;
+
+        
+    
+    
+            marker_9c910492799f7db7e29ad5261c2692cf.bindTooltip(
+                `<div>
+                     ile de la Madeleine
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_42d789fb6a08070c77056ea3df6b0d79 = L.marker(
+                [13.649166699759869, -16.664444399481024],
+                {}
+            ).addTo(feature_group_e9492cdec394f97836723f21da745f77);
+        
+    
+            var icon_daa1760f9854a7c0b13122aa265c17bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_42d789fb6a08070c77056ea3df6b0d79.setIcon(icon_daa1760f9854a7c0b13122aa265c17bc);
+        
+    
+        var popup_6b53c67ce9d03c68f0c9f34e19daf5cb = L.popup({"maxWidth": 250});
+
+        
+            var html_65f76b1a687c9ed78b5af2c235f8988a = $(`<div id="html_65f76b1a687c9ed78b5af2c235f8988a" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Île des Oiseaux</strong><br>             <em>Naturel</em><br>             Comme son nom l’indique, cette île est un paradis pour les amateurs d’ornithologie. Elle abrite de n...         </div>         </div>`)[0];
+            popup_6b53c67ce9d03c68f0c9f34e19daf5cb.setContent(html_65f76b1a687c9ed78b5af2c235f8988a);
+        
+
+        marker_42d789fb6a08070c77056ea3df6b0d79.bindPopup(popup_6b53c67ce9d03c68f0c9f34e19daf5cb)
+        ;
+
+        
+    
+    
+            marker_42d789fb6a08070c77056ea3df6b0d79.bindTooltip(
+                `<div>
+                     Île des Oiseaux
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8e379a19819e9a77e8b2ac9962c6d8aa = L.marker(
+                [12.53333330028209, -16.716666699801696],
+                {}
+            ).addTo(feature_group_e9492cdec394f97836723f21da745f77);
+        
+    
+            var icon_a4ad053e47c559d56b0771b9295216fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8e379a19819e9a77e8b2ac9962c6d8aa.setIcon(icon_a4ad053e47c559d56b0771b9295216fb);
+        
+    
+        var popup_33155953dfe7a0a213427ba4d4bb1d39 = L.popup({"maxWidth": 250});
+
+        
+            var html_af46145d53e22f399888101d48d1b2f3 = $(`<div id="html_af46145d53e22f399888101d48d1b2f3" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Ile de Karabane</strong><br>             <em>Naturel</em><br>             Située en Casamance, cette île historique est connue pour ses vestiges coloniaux, ses plages paisibl...         </div>         </div>`)[0];
+            popup_33155953dfe7a0a213427ba4d4bb1d39.setContent(html_af46145d53e22f399888101d48d1b2f3);
+        
+
+        marker_8e379a19819e9a77e8b2ac9962c6d8aa.bindPopup(popup_33155953dfe7a0a213427ba4d4bb1d39)
+        ;
+
+        
+    
+    
+            marker_8e379a19819e9a77e8b2ac9962c6d8aa.bindTooltip(
+                `<div>
+                     Ile de Karabane
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_586afef0c93d897cd8f22c8d409af271 = L.marker(
+                [14.755937800487898, -17.514274300629484],
+                {}
+            ).addTo(feature_group_e9492cdec394f97836723f21da745f77);
+        
+    
+            var icon_a3a955a5222675769020bbdc34863386 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_586afef0c93d897cd8f22c8d409af271.setIcon(icon_a3a955a5222675769020bbdc34863386);
+        
+    
+        var popup_47e3fa0d7b240a862526f48ae7004ea6 = L.popup({"maxWidth": 250});
+
+        
+            var html_8855bd7aa34da27b11f5756038177aae = $(`<div id="html_8855bd7aa34da27b11f5756038177aae" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Ile de Ngor</strong><br>             <em>Naturel</em><br>             Proche de Dakar, cette petite île est réputée pour ses plages magnifiques, ses spots de surf, et son...         </div>         </div>`)[0];
+            popup_47e3fa0d7b240a862526f48ae7004ea6.setContent(html_8855bd7aa34da27b11f5756038177aae);
+        
+
+        marker_586afef0c93d897cd8f22c8d409af271.bindPopup(popup_47e3fa0d7b240a862526f48ae7004ea6)
+        ;
+
+        
+    
+    
+            marker_586afef0c93d897cd8f22c8d409af271.bindTooltip(
+                `<div>
+                     Ile de Ngor
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_684396966bd5fab24eb52ca0985772e1 = L.marker(
+                [12.733333299568761, -15.550277800048093],
+                {}
+            ).addTo(feature_group_e9492cdec394f97836723f21da745f77);
+        
+    
+            var icon_b4b70497c31b106fefb5fc8fc12b7b2d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_684396966bd5fab24eb52ca0985772e1.setIcon(icon_b4b70497c31b106fefb5fc8fc12b7b2d);
+        
+    
+        var popup_323d2b5966d89772b14175dc96bf4e19 = L.popup({"maxWidth": 250});
+
+        
+            var html_d877ad9cdfc839ec6816674297c4f5e3 = $(`<div id="html_d877ad9cdfc839ec6816674297c4f5e3" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Ile du Diable</strong><br>             <em>Naturel</em><br>             Moins connue, cette île a un nom intrigant qui évoque des récits mystérieux. Elle mérite une explora...         </div>         </div>`)[0];
+            popup_323d2b5966d89772b14175dc96bf4e19.setContent(html_d877ad9cdfc839ec6816674297c4f5e3);
+        
+
+        marker_684396966bd5fab24eb52ca0985772e1.bindPopup(popup_323d2b5966d89772b14175dc96bf4e19)
+        ;
+
+        
+    
+    
+            marker_684396966bd5fab24eb52ca0985772e1.bindTooltip(
+                `<div>
+                     Ile du Diable
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c1c9532d56af9f0591b0143535f344a4 = L.marker(
+                [12.48844850029904, -16.543676000197404],
+                {}
+            ).addTo(feature_group_e9492cdec394f97836723f21da745f77);
+        
+    
+            var icon_a215d580d9057bb0d1b811526b7b0f43 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c1c9532d56af9f0591b0143535f344a4.setIcon(icon_a215d580d9057bb0d1b811526b7b0f43);
+        
+    
+        var popup_5c30a144a66975e717b79d0bbd640c9d = L.popup({"maxWidth": 250});
+
+        
+            var html_24f5ccf5806086c53d575122164cf16c = $(`<div id="html_24f5ccf5806086c53d575122164cf16c" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Ile d'Eloubaline</strong><br>             <em>Naturel</em><br>             Située dans le delta du Saloum, cette île est une perle de la nature. Les visiteurs peuvent explorer...         </div>         </div>`)[0];
+            popup_5c30a144a66975e717b79d0bbd640c9d.setContent(html_24f5ccf5806086c53d575122164cf16c);
+        
+
+        marker_c1c9532d56af9f0591b0143535f344a4.bindPopup(popup_5c30a144a66975e717b79d0bbd640c9d)
+        ;
+
+        
+    
+    
+            marker_c1c9532d56af9f0591b0143535f344a4.bindTooltip(
+                `<div>
+                     Ile d'Eloubaline
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_00829be7a13167b9bd6a78e357ce3ad7 = L.marker(
+                [16.537237865407306, -14.648662813922025],
+                {}
+            ).addTo(feature_group_e9492cdec394f97836723f21da745f77);
+        
+    
+            var icon_81577b3e92e4df53da41c585b7b2646d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_00829be7a13167b9bd6a78e357ce3ad7.setIcon(icon_81577b3e92e4df53da41c585b7b2646d);
+        
+    
+        var popup_9f645315e1a7455cfe6822b92d7b06ea = L.popup({"maxWidth": 250});
+
+        
+            var html_cc21a02939aa440fec28036ece0d10a9 = $(`<div id="html_cc21a02939aa440fec28036ece0d10a9" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Ile Morphil</strong><br>             <em>Naturel</em><br>             Située près du fleuve Sénégal, cette île est connue pour son environnement naturel et ses villages p...         </div>         </div>`)[0];
+            popup_9f645315e1a7455cfe6822b92d7b06ea.setContent(html_cc21a02939aa440fec28036ece0d10a9);
+        
+
+        marker_00829be7a13167b9bd6a78e357ce3ad7.bindPopup(popup_9f645315e1a7455cfe6822b92d7b06ea)
+        ;
+
+        
+    
+    
+            marker_00829be7a13167b9bd6a78e357ce3ad7.bindTooltip(
+                `<div>
+                     Ile Morphil
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_55124d21a1cb9a96838b6db196be1ec3 = L.featureGroup(
+                {}
+            ).addTo(map_6801f85eb88eb1952a30a7b966a55958);
+        
+    
+            var marker_4cbf321cd2c150b9dccfe1e4c4beb32a = L.marker(
+                [13.74793299922076, -16.511019000205394],
+                {}
+            ).addTo(feature_group_55124d21a1cb9a96838b6db196be1ec3);
+        
+    
+            var icon_fd4f54d0a3a6c4af85e4fe8d141b4843 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4cbf321cd2c150b9dccfe1e4c4beb32a.setIcon(icon_fd4f54d0a3a6c4af85e4fe8d141b4843);
+        
+    
+        var popup_e86e40c0ca2e2812518cbe864a194802 = L.popup({"maxWidth": 250});
+
+        
+            var html_df929d65d484798e910dcecf1598c919 = $(`<div id="html_df929d65d484798e910dcecf1598c919" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Sipo</strong><br>             <em>Culturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_e86e40c0ca2e2812518cbe864a194802.setContent(html_df929d65d484798e910dcecf1598c919);
+        
+
+        marker_4cbf321cd2c150b9dccfe1e4c4beb32a.bindPopup(popup_e86e40c0ca2e2812518cbe864a194802)
+        ;
+
+        
+    
+    
+            marker_4cbf321cd2c150b9dccfe1e4c4beb32a.bindTooltip(
+                `<div>
+                     Sipo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_06ba62cae89295ef4e5281d2f0ef32bf = L.marker(
+                [13.782142299949435, -16.469299699716824],
+                {}
+            ).addTo(feature_group_55124d21a1cb9a96838b6db196be1ec3);
+        
+    
+            var icon_9bad351d3f91185403b8ba80ea7b0536 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_06ba62cae89295ef4e5281d2f0ef32bf.setIcon(icon_9bad351d3f91185403b8ba80ea7b0536);
+        
+    
+        var popup_b40c144a3b9ec9bcfe26ea9440f35ff6 = L.popup({"maxWidth": 250});
+
+        
+            var html_e8318703c99275825584ffcea7b9b792 = $(`<div id="html_e8318703c99275825584ffcea7b9b792" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Toubakouta</strong><br>             <em>Culturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_b40c144a3b9ec9bcfe26ea9440f35ff6.setContent(html_e8318703c99275825584ffcea7b9b792);
+        
+
+        marker_06ba62cae89295ef4e5281d2f0ef32bf.bindPopup(popup_b40c144a3b9ec9bcfe26ea9440f35ff6)
+        ;
+
+        
+    
+    
+            marker_06ba62cae89295ef4e5281d2f0ef32bf.bindTooltip(
+                `<div>
+                     Toubakouta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_66aa9208402b10e0e32333011556ac8f = L.marker(
+                [14.088964999643968, -16.16722700078414],
+                {}
+            ).addTo(feature_group_55124d21a1cb9a96838b6db196be1ec3);
+        
+    
+            var icon_8d4dbe7a539934c673feb2e5cce5ed10 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_66aa9208402b10e0e32333011556ac8f.setIcon(icon_8d4dbe7a539934c673feb2e5cce5ed10);
+        
+    
+        var popup_8e9b202892b0effac1c0fe5eb1425815 = L.popup({"maxWidth": 250});
+
+        
+            var html_dff0c672b45c9707a481d81d8e21eba8 = $(`<div id="html_dff0c672b45c9707a481d81d8e21eba8" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Ndiaffate</strong><br>             <em>Culturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_8e9b202892b0effac1c0fe5eb1425815.setContent(html_dff0c672b45c9707a481d81d8e21eba8);
+        
+
+        marker_66aa9208402b10e0e32333011556ac8f.bindPopup(popup_8e9b202892b0effac1c0fe5eb1425815)
+        ;
+
+        
+    
+    
+            marker_66aa9208402b10e0e32333011556ac8f.bindTooltip(
+                `<div>
+                     Ndiaffate
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0e7706135741b8310c446553e05fc60b = L.marker(
+                [12.616667000168372, -16.566666999484273],
+                {}
+            ).addTo(feature_group_55124d21a1cb9a96838b6db196be1ec3);
+        
+    
+            var icon_5f17075b49410140ae9ad065fae3c0c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0e7706135741b8310c446553e05fc60b.setIcon(icon_5f17075b49410140ae9ad065fae3c0c5);
+        
+    
+        var popup_ab174a36fc0884ad0d068ac3b4ef8f60 = L.popup({"maxWidth": 250});
+
+        
+            var html_bbdd30e2de97fe6c6c6a725f4aa08fb1 = $(`<div id="html_bbdd30e2de97fe6c6c6a725f4aa08fb1" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Pointe-Saint-Georges</strong><br>             <em>Culturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_ab174a36fc0884ad0d068ac3b4ef8f60.setContent(html_bbdd30e2de97fe6c6c6a725f4aa08fb1);
+        
+
+        marker_0e7706135741b8310c446553e05fc60b.bindPopup(popup_ab174a36fc0884ad0d068ac3b4ef8f60)
+        ;
+
+        
+    
+    
+            marker_0e7706135741b8310c446553e05fc60b.bindTooltip(
+                `<div>
+                     Pointe-Saint-Georges
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b893493a63ef4f18c2a833d19f9b4db4 = L.marker(
+                [12.516667000406796, -16.716667000259665],
+                {}
+            ).addTo(feature_group_55124d21a1cb9a96838b6db196be1ec3);
+        
+    
+            var icon_8eeeeb4ed8c74173b941cd35804db23c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b893493a63ef4f18c2a833d19f9b4db4.setIcon(icon_8eeeeb4ed8c74173b941cd35804db23c);
+        
+    
+        var popup_f141406e4e6e104df4bdc26a07ed5bf2 = L.popup({"maxWidth": 250});
+
+        
+            var html_1cfed1da4d959d8e3cd67811cfccd13f = $(`<div id="html_1cfed1da4d959d8e3cd67811cfccd13f" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Efrane Kachiouane</strong><br>             <em>Culturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_f141406e4e6e104df4bdc26a07ed5bf2.setContent(html_1cfed1da4d959d8e3cd67811cfccd13f);
+        
+
+        marker_b893493a63ef4f18c2a833d19f9b4db4.bindPopup(popup_f141406e4e6e104df4bdc26a07ed5bf2)
+        ;
+
+        
+    
+    
+            marker_b893493a63ef4f18c2a833d19f9b4db4.bindTooltip(
+                `<div>
+                     Efrane Kachiouane
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bfb78a53880778eea24c635f21928777 = L.marker(
+                [12.557436999370326, -16.31621219987433],
+                {}
+            ).addTo(feature_group_55124d21a1cb9a96838b6db196be1ec3);
+        
+    
+            var icon_7192053fc8d677a6c5498b9e03ec0aa1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bfb78a53880778eea24c635f21928777.setIcon(icon_7192053fc8d677a6c5498b9e03ec0aa1);
+        
+    
+        var popup_4a8f3568d68811ebf5961c62ca3c9c31 = L.popup({"maxWidth": 250});
+
+        
+            var html_05e4f3c1d7e5d0d9f89ebd03fc330f40 = $(`<div id="html_05e4f3c1d7e5d0d9f89ebd03fc330f40" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Djibélor</strong><br>             <em>Culturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_4a8f3568d68811ebf5961c62ca3c9c31.setContent(html_05e4f3c1d7e5d0d9f89ebd03fc330f40);
+        
+
+        marker_bfb78a53880778eea24c635f21928777.bindPopup(popup_4a8f3568d68811ebf5961c62ca3c9c31)
+        ;
+
+        
+    
+    
+            marker_bfb78a53880778eea24c635f21928777.bindTooltip(
+                `<div>
+                     Djibélor
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0293b5e1c82c8c13fc55a8961d886250 = L.marker(
+                [14.676647199389887, -17.457646199462772],
+                {}
+            ).addTo(feature_group_55124d21a1cb9a96838b6db196be1ec3);
+        
+    
+            var icon_5c33e5ad0cde0a977055c5f7a585ec2d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0293b5e1c82c8c13fc55a8961d886250.setIcon(icon_5c33e5ad0cde0a977055c5f7a585ec2d);
+        
+    
+        var popup_421fdb4603083053334e4a879baa84d5 = L.popup({"maxWidth": 250});
+
+        
+            var html_f0df5966967fedaceba66c4425e20870 = $(`<div id="html_f0df5966967fedaceba66c4425e20870" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Village artisanal de Soumbédioune</strong><br>             <em>Culturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_421fdb4603083053334e4a879baa84d5.setContent(html_f0df5966967fedaceba66c4425e20870);
+        
+
+        marker_0293b5e1c82c8c13fc55a8961d886250.bindPopup(popup_421fdb4603083053334e4a879baa84d5)
+        ;
+
+        
+    
+    
+            marker_0293b5e1c82c8c13fc55a8961d886250.bindTooltip(
+                `<div>
+                     Village artisanal de Soumbédioune
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_14255280f47d7384032ce396afdbe1d4 = L.marker(
+                [14.746486299558011, -17.45714939991813],
+                {}
+            ).addTo(feature_group_55124d21a1cb9a96838b6db196be1ec3);
+        
+    
+            var icon_eb35594582cbc14faf5c375283c32761 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_14255280f47d7384032ce396afdbe1d4.setIcon(icon_eb35594582cbc14faf5c375283c32761);
+        
+    
+        var popup_e37113d0404bd64a8b999e2cfac9736d = L.popup({"maxWidth": 250});
+
+        
+            var html_6ebcd30aeb83eb4ff69a89243e7c4ba3 = $(`<div id="html_6ebcd30aeb83eb4ff69a89243e7c4ba3" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Village des Arts</strong><br>             <em>Culturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_e37113d0404bd64a8b999e2cfac9736d.setContent(html_6ebcd30aeb83eb4ff69a89243e7c4ba3);
+        
+
+        marker_14255280f47d7384032ce396afdbe1d4.bindPopup(popup_e37113d0404bd64a8b999e2cfac9736d)
+        ;
+
+        
+    
+    
+            marker_14255280f47d7384032ce396afdbe1d4.bindTooltip(
+                `<div>
+                     Village des Arts
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_56b3ef7fb1c33004c86f3266feb81491 = L.marker(
+                [14.152255899768083, -16.824979799733725],
+                {}
+            ).addTo(feature_group_55124d21a1cb9a96838b6db196be1ec3);
+        
+    
+            var icon_517722f544ca81f569f21072dfb537dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_56b3ef7fb1c33004c86f3266feb81491.setIcon(icon_517722f544ca81f569f21072dfb537dd);
+        
+    
+        var popup_03d8007a0ccf53033d8427d46f4ac7fb = L.popup({"maxWidth": 250});
+
+        
+            var html_255a742a80061b20a6d4caf82b71c6da = $(`<div id="html_255a742a80061b20a6d4caf82b71c6da" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>La Case</strong><br>             <em>Culturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_03d8007a0ccf53033d8427d46f4ac7fb.setContent(html_255a742a80061b20a6d4caf82b71c6da);
+        
+
+        marker_56b3ef7fb1c33004c86f3266feb81491.bindPopup(popup_03d8007a0ccf53033d8427d46f4ac7fb)
+        ;
+
+        
+    
+    
+            marker_56b3ef7fb1c33004c86f3266feb81491.bindTooltip(
+                `<div>
+                     La Case
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_835c00d91fe72f26452fc46bfca69c68 = L.marker(
+                [14.441428000228395, -17.014795099770698],
+                {}
+            ).addTo(feature_group_55124d21a1cb9a96838b6db196be1ec3);
+        
+    
+            var icon_dd30f6cd8ebd40cb55ee26a8e0b90906 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_835c00d91fe72f26452fc46bfca69c68.setIcon(icon_dd30f6cd8ebd40cb55ee26a8e0b90906);
+        
+    
+        var popup_ac7d22c2d089ed2ec023446e09303887 = L.popup({"maxWidth": 250});
+
+        
+            var html_13aa9cba8c622c39a40f68d1ede13cc9 = $(`<div id="html_13aa9cba8c622c39a40f68d1ede13cc9" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Saly Portudal</strong><br>             <em>Culturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_ac7d22c2d089ed2ec023446e09303887.setContent(html_13aa9cba8c622c39a40f68d1ede13cc9);
+        
+
+        marker_835c00d91fe72f26452fc46bfca69c68.bindPopup(popup_ac7d22c2d089ed2ec023446e09303887)
+        ;
+
+        
+    
+    
+            marker_835c00d91fe72f26452fc46bfca69c68.bindTooltip(
+                `<div>
+                     Saly Portudal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6ef1eb1cbf633038a527ec6ed83f035e = L.marker(
+                [14.1811692999256, -16.8502879000302],
+                {}
+            ).addTo(feature_group_55124d21a1cb9a96838b6db196be1ec3);
+        
+    
+            var icon_b4451e29f94a697b2b7ab2ff6c795344 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6ef1eb1cbf633038a527ec6ed83f035e.setIcon(icon_b4451e29f94a697b2b7ab2ff6c795344);
+        
+    
+        var popup_3a92eb73620fdcbbcbfd008b5c4edb80 = L.popup({"maxWidth": 250});
+
+        
+            var html_a972c45f5a65fced0274871e45826c2b = $(`<div id="html_a972c45f5a65fced0274871e45826c2b" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Joal Fadiouth</strong><br>             <em>Culturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_3a92eb73620fdcbbcbfd008b5c4edb80.setContent(html_a972c45f5a65fced0274871e45826c2b);
+        
+
+        marker_6ef1eb1cbf633038a527ec6ed83f035e.bindPopup(popup_3a92eb73620fdcbbcbfd008b5c4edb80)
+        ;
+
+        
+    
+    
+            marker_6ef1eb1cbf633038a527ec6ed83f035e.bindTooltip(
+                `<div>
+                     Joal Fadiouth
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ebb110157ecd1546981d93d462ebfe96 = L.marker(
+                [16.259305999730792, -15.883925000497632],
+                {}
+            ).addTo(feature_group_55124d21a1cb9a96838b6db196be1ec3);
+        
+    
+            var icon_f48dd56396d96f8333e1fe40fdf08e8e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ebb110157ecd1546981d93d462ebfe96.setIcon(icon_f48dd56396d96f8333e1fe40fdf08e8e);
+        
+    
+        var popup_b321a12dde0a5e8d6a951a9a8a61ee67 = L.popup({"maxWidth": 250});
+
+        
+            var html_615a169c0416d0800297729694524b79 = $(`<div id="html_615a169c0416d0800297729694524b79" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Nder</strong><br>             <em>Culturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_b321a12dde0a5e8d6a951a9a8a61ee67.setContent(html_615a169c0416d0800297729694524b79);
+        
+
+        marker_ebb110157ecd1546981d93d462ebfe96.bindPopup(popup_b321a12dde0a5e8d6a951a9a8a61ee67)
+        ;
+
+        
+    
+    
+            marker_ebb110157ecd1546981d93d462ebfe96.bindTooltip(
+                `<div>
+                     Nder
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bd3d09fe21ae02ec37f6d71e2633177c = L.marker(
+                [15.968153600629929, -16.372427300355483],
+                {}
+            ).addTo(feature_group_55124d21a1cb9a96838b6db196be1ec3);
+        
+    
+            var icon_a90fde2607a51f5eaf6d20e49187616a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bd3d09fe21ae02ec37f6d71e2633177c.setIcon(icon_a90fde2607a51f5eaf6d20e49187616a);
+        
+    
+        var popup_c89b0c0f3863727c3a4061838f528e90 = L.popup({"maxWidth": 250});
+
+        
+            var html_6ba4f4a4545f6ffc12ebef528ce6d6a2 = $(`<div id="html_6ba4f4a4545f6ffc12ebef528ce6d6a2" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>N'Guelakh</strong><br>             <em>Culturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_c89b0c0f3863727c3a4061838f528e90.setContent(html_6ba4f4a4545f6ffc12ebef528ce6d6a2);
+        
+
+        marker_bd3d09fe21ae02ec37f6d71e2633177c.bindPopup(popup_c89b0c0f3863727c3a4061838f528e90)
+        ;
+
+        
+    
+    
+            marker_bd3d09fe21ae02ec37f6d71e2633177c.bindTooltip(
+                `<div>
+                     N'Guelakh
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4086351e37eb629b73932464880b9cf5 = L.marker(
+                [13.692838899273285, -15.53412490075582],
+                {}
+            ).addTo(feature_group_55124d21a1cb9a96838b6db196be1ec3);
+        
+    
+            var icon_22e6d301fb2554ded5391dcb63951dab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4086351e37eb629b73932464880b9cf5.setIcon(icon_22e6d301fb2554ded5391dcb63951dab);
+        
+    
+        var popup_b85f72dfeccc3ee4f20abc05fed4c75b = L.popup({"maxWidth": 250});
+
+        
+            var html_2ef2459bddef4cd9142f5ce719ebe381 = $(`<div id="html_2ef2459bddef4cd9142f5ce719ebe381" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Sine Ngayène</strong><br>             <em>Culturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_b85f72dfeccc3ee4f20abc05fed4c75b.setContent(html_2ef2459bddef4cd9142f5ce719ebe381);
+        
+
+        marker_4086351e37eb629b73932464880b9cf5.bindPopup(popup_b85f72dfeccc3ee4f20abc05fed4c75b)
+        ;
+
+        
+    
+    
+            marker_4086351e37eb629b73932464880b9cf5.bindTooltip(
+                `<div>
+                     Sine Ngayène
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_44a143b5e1efd27ffadb5dc5aa22992a = L.marker(
+                [12.823008999399239, -15.497098999910882],
+                {}
+            ).addTo(feature_group_55124d21a1cb9a96838b6db196be1ec3);
+        
+    
+            var icon_18ece70c034500100de169471919a041 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_44a143b5e1efd27ffadb5dc5aa22992a.setIcon(icon_18ece70c034500100de169471919a041);
+        
+    
+        var popup_85316c6a99974e46dda9ee0502e806e7 = L.popup({"maxWidth": 250});
+
+        
+            var html_926f290d31f52bf9a7f3f4fba0c94599 = $(`<div id="html_926f290d31f52bf9a7f3f4fba0c94599" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Badouga</strong><br>             <em>Culturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_85316c6a99974e46dda9ee0502e806e7.setContent(html_926f290d31f52bf9a7f3f4fba0c94599);
+        
+
+        marker_44a143b5e1efd27ffadb5dc5aa22992a.bindPopup(popup_85316c6a99974e46dda9ee0502e806e7)
+        ;
+
+        
+    
+    
+            marker_44a143b5e1efd27ffadb5dc5aa22992a.bindTooltip(
+                `<div>
+                     Badouga
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a65e74ecc3eb210f80f17f73308f6a9c = L.marker(
+                [12.894315100109006, -14.943068900316268],
+                {}
+            ).addTo(feature_group_55124d21a1cb9a96838b6db196be1ec3);
+        
+    
+            var icon_453c16585257b3d44f74929d3f9f8bcd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a65e74ecc3eb210f80f17f73308f6a9c.setIcon(icon_453c16585257b3d44f74929d3f9f8bcd);
+        
+    
+        var popup_fbe9e247524e8aff8dbaedb3b3ee64f2 = L.popup({"maxWidth": 250});
+
+        
+            var html_52dd139f212a3538dddd739e86466a45 = $(`<div id="html_52dd139f212a3538dddd739e86466a45" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Arbre Moussa Molo</strong><br>             <em>Culturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_fbe9e247524e8aff8dbaedb3b3ee64f2.setContent(html_52dd139f212a3538dddd739e86466a45);
+        
+
+        marker_a65e74ecc3eb210f80f17f73308f6a9c.bindPopup(popup_fbe9e247524e8aff8dbaedb3b3ee64f2)
+        ;
+
+        
+    
+    
+            marker_a65e74ecc3eb210f80f17f73308f6a9c.bindTooltip(
+                `<div>
+                     Arbre Moussa Molo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_042bd49fdd2e53b6d169bd62d5252c18 = L.marker(
+                [13.15522999975837, -15.031420000076029],
+                {}
+            ).addTo(feature_group_55124d21a1cb9a96838b6db196be1ec3);
+        
+    
+            var icon_f2a8a544ef9661e556eeb31639ac8a34 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_042bd49fdd2e53b6d169bd62d5252c18.setIcon(icon_f2a8a544ef9661e556eeb31639ac8a34);
+        
+    
+        var popup_269b377ebf51f181a0feb2fbb4275453 = L.popup({"maxWidth": 250});
+
+        
+            var html_f73b089b8342373fc38e072bbebbb195 = $(`<div id="html_f73b089b8342373fc38e072bbebbb195" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Tata Moussa Molo</strong><br>             <em>Culturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_269b377ebf51f181a0feb2fbb4275453.setContent(html_f73b089b8342373fc38e072bbebbb195);
+        
+
+        marker_042bd49fdd2e53b6d169bd62d5252c18.bindPopup(popup_269b377ebf51f181a0feb2fbb4275453)
+        ;
+
+        
+    
+    
+            marker_042bd49fdd2e53b6d169bd62d5252c18.bindTooltip(
+                `<div>
+                     Tata Moussa Molo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_489c7f020dc538332ab464d9d8e9bed4 = L.marker(
+                [12.48844850029904, -16.543676000197404],
+                {}
+            ).addTo(feature_group_55124d21a1cb9a96838b6db196be1ec3);
+        
+    
+            var icon_b6a198d9858916514423bbd911536992 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_489c7f020dc538332ab464d9d8e9bed4.setIcon(icon_b6a198d9858916514423bbd911536992);
+        
+    
+        var popup_b3fe9a869368e422a7550d434d4cac1a = L.popup({"maxWidth": 250});
+
+        
+            var html_138b2fdadbee7c7cce28e2c6d9752d05 = $(`<div id="html_138b2fdadbee7c7cce28e2c6d9752d05" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Oussouye</strong><br>             <em>Culturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_b3fe9a869368e422a7550d434d4cac1a.setContent(html_138b2fdadbee7c7cce28e2c6d9752d05);
+        
+
+        marker_489c7f020dc538332ab464d9d8e9bed4.bindPopup(popup_b3fe9a869368e422a7550d434d4cac1a)
+        ;
+
+        
+    
+    
+            marker_489c7f020dc538332ab464d9d8e9bed4.bindTooltip(
+                `<div>
+                     Oussouye
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eb478e3039bdc391e09a228ca72db2c9 = L.marker(
+                [12.442988999963623, -16.74894300012121],
+                {}
+            ).addTo(feature_group_55124d21a1cb9a96838b6db196be1ec3);
+        
+    
+            var icon_2608c1097d390e1c74b765cd8fc7b77c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_eb478e3039bdc391e09a228ca72db2c9.setIcon(icon_2608c1097d390e1c74b765cd8fc7b77c);
+        
+    
+        var popup_fe9f139a9a73d268a8f55cd60436b402 = L.popup({"maxWidth": 250});
+
+        
+            var html_6ba95b61641ff1b3dd7b19090627a363 = $(`<div id="html_6ba95b61641ff1b3dd7b19090627a363" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Bouyouye</strong><br>             <em>Culturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_fe9f139a9a73d268a8f55cd60436b402.setContent(html_6ba95b61641ff1b3dd7b19090627a363);
+        
+
+        marker_eb478e3039bdc391e09a228ca72db2c9.bindPopup(popup_fe9f139a9a73d268a8f55cd60436b402)
+        ;
+
+        
+    
+    
+            marker_eb478e3039bdc391e09a228ca72db2c9.bindTooltip(
+                `<div>
+                     Bouyouye
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b03843dee0910526f7b1b40638fd8d31 = L.marker(
+                [14.359268999824621, -12.245314000359793],
+                {}
+            ).addTo(feature_group_55124d21a1cb9a96838b6db196be1ec3);
+        
+    
+            var icon_923f26aaea8c5b53f54079b655aaf319 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b03843dee0910526f7b1b40638fd8d31.setIcon(icon_923f26aaea8c5b53f54079b655aaf319);
+        
+    
+        var popup_c8d2d44ea86a200011b6fd49d10c5a74 = L.popup({"maxWidth": 250});
+
+        
+            var html_e0848b34fffd31cc9cde4fb61bf59111 = $(`<div id="html_e0848b34fffd31cc9cde4fb61bf59111" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Sénoudébou</strong><br>             <em>Culturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_c8d2d44ea86a200011b6fd49d10c5a74.setContent(html_e0848b34fffd31cc9cde4fb61bf59111);
+        
+
+        marker_b03843dee0910526f7b1b40638fd8d31.bindPopup(popup_c8d2d44ea86a200011b6fd49d10c5a74)
+        ;
+
+        
+    
+    
+            marker_b03843dee0910526f7b1b40638fd8d31.bindTooltip(
+                `<div>
+                     Sénoudébou
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a23f06a7e04b97d75031a074ee00cfe4 = L.marker(
+                [14.437073700113496, -14.49125599994254],
+                {}
+            ).addTo(feature_group_55124d21a1cb9a96838b6db196be1ec3);
+        
+    
+            var icon_ace69207eb8f8ac2a48ec622f4e3fe02 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a23f06a7e04b97d75031a074ee00cfe4.setIcon(icon_ace69207eb8f8ac2a48ec622f4e3fe02);
+        
+    
+        var popup_d764f7297e6b1fa5518e8048ac70ebd9 = L.popup({"maxWidth": 250});
+
+        
+            var html_0cfccdc47ba04ec0fd6e7f47731b9396 = $(`<div id="html_0cfccdc47ba04ec0fd6e7f47731b9396" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Payar</strong><br>             <em>Culturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_d764f7297e6b1fa5518e8048ac70ebd9.setContent(html_0cfccdc47ba04ec0fd6e7f47731b9396);
+        
+
+        marker_a23f06a7e04b97d75031a074ee00cfe4.bindPopup(popup_d764f7297e6b1fa5518e8048ac70ebd9)
+        ;
+
+        
+    
+    
+            marker_a23f06a7e04b97d75031a074ee00cfe4.bindTooltip(
+                `<div>
+                     Payar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a22fe6e17d6aa3bf48dcc4e35f1a0236 = L.marker(
+                [15.365024082871866, -13.914661958001345],
+                {}
+            ).addTo(feature_group_55124d21a1cb9a96838b6db196be1ec3);
+        
+    
+            var icon_9f8ae19b09699271b1316f879c8bab73 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a22fe6e17d6aa3bf48dcc4e35f1a0236.setIcon(icon_9f8ae19b09699271b1316f879c8bab73);
+        
+    
+        var popup_6b25111a87578f3f2614b3dd661f20be = L.popup({"maxWidth": 250});
+
+        
+            var html_74b0d62bee0d0e80536a1285eaf584ed = $(`<div id="html_74b0d62bee0d0e80536a1285eaf584ed" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Ranérou</strong><br>             <em>Culturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_6b25111a87578f3f2614b3dd661f20be.setContent(html_74b0d62bee0d0e80536a1285eaf584ed);
+        
+
+        marker_a22fe6e17d6aa3bf48dcc4e35f1a0236.bindPopup(popup_6b25111a87578f3f2614b3dd661f20be)
+        ;
+
+        
+    
+    
+            marker_a22fe6e17d6aa3bf48dcc4e35f1a0236.bindTooltip(
+                `<div>
+                     Ranérou
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c1cc8caad6e44f388948c39c2218bf02 = L.marker(
+                [15.284770039212795, -13.313925418143882],
+                {}
+            ).addTo(feature_group_55124d21a1cb9a96838b6db196be1ec3);
+        
+    
+            var icon_440b828df56b913922d7300da7cbd5b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c1cc8caad6e44f388948c39c2218bf02.setIcon(icon_440b828df56b913922d7300da7cbd5b7);
+        
+    
+        var popup_1cf6a70080e16168dc1ae0d77e6ee6ca = L.popup({"maxWidth": 250});
+
+        
+            var html_17c7019454aa167c1b5b38b8d66a853f = $(`<div id="html_17c7019454aa167c1b5b38b8d66a853f" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Village de Ranerou</strong><br>             <em>Culturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_1cf6a70080e16168dc1ae0d77e6ee6ca.setContent(html_17c7019454aa167c1b5b38b8d66a853f);
+        
+
+        marker_c1cc8caad6e44f388948c39c2218bf02.bindPopup(popup_1cf6a70080e16168dc1ae0d77e6ee6ca)
+        ;
+
+        
+    
+    
+            marker_c1cc8caad6e44f388948c39c2218bf02.bindTooltip(
+                `<div>
+                     Village de Ranerou
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ce8b0ea2c61586dd8d35965dcaeb39ca = L.marker(
+                [16.449496301224418, -15.086284742921887],
+                {}
+            ).addTo(feature_group_55124d21a1cb9a96838b6db196be1ec3);
+        
+    
+            var icon_86aa6197962524a80a2e9cb9e68802d1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ce8b0ea2c61586dd8d35965dcaeb39ca.setIcon(icon_86aa6197962524a80a2e9cb9e68802d1);
+        
+    
+        var popup_0800deb03fb7ef5c8cc0322c7b423bff = L.popup({"maxWidth": 250});
+
+        
+            var html_9b5fdbbdf43ecebf9bea107fc5061357 = $(`<div id="html_9b5fdbbdf43ecebf9bea107fc5061357" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Ndiayene Pendao</strong><br>             <em>Culturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_0800deb03fb7ef5c8cc0322c7b423bff.setContent(html_9b5fdbbdf43ecebf9bea107fc5061357);
+        
+
+        marker_ce8b0ea2c61586dd8d35965dcaeb39ca.bindPopup(popup_0800deb03fb7ef5c8cc0322c7b423bff)
+        ;
+
+        
+    
+    
+            marker_ce8b0ea2c61586dd8d35965dcaeb39ca.bindTooltip(
+                `<div>
+                     Ndiayene Pendao
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7bd6733eb77c2ef34548db716d7addef = L.marker(
+                [16.331858881248458, -16.242571059572203],
+                {}
+            ).addTo(feature_group_55124d21a1cb9a96838b6db196be1ec3);
+        
+    
+            var icon_80173132041d44ef7cb257f1a19d0b2b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7bd6733eb77c2ef34548db716d7addef.setIcon(icon_80173132041d44ef7cb257f1a19d0b2b);
+        
+    
+        var popup_86811b99576ff4d58cfc293c3c940290 = L.popup({"maxWidth": 250});
+
+        
+            var html_dfd29bff62bbba1157bea823b4c27759 = $(`<div id="html_dfd29bff62bbba1157bea823b4c27759" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Savoigne</strong><br>             <em>Culturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_86811b99576ff4d58cfc293c3c940290.setContent(html_dfd29bff62bbba1157bea823b4c27759);
+        
+
+        marker_7bd6733eb77c2ef34548db716d7addef.bindPopup(popup_86811b99576ff4d58cfc293c3c940290)
+        ;
+
+        
+    
+    
+            marker_7bd6733eb77c2ef34548db716d7addef.bindTooltip(
+                `<div>
+                     Savoigne
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d3cd165c5c204f6564ee50eb4c502768 = L.marker(
+                [13.852710852665586, -15.777928041001015],
+                {}
+            ).addTo(feature_group_55124d21a1cb9a96838b6db196be1ec3);
+        
+    
+            var icon_6e6521996fb0a9d8f253369519a8608a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d3cd165c5c204f6564ee50eb4c502768.setIcon(icon_6e6521996fb0a9d8f253369519a8608a);
+        
+    
+        var popup_d14b4fcbfe3b8f6b573de9208227da27 = L.popup({"maxWidth": 250});
+
+        
+            var html_3e5405ec0f9d6f69d4e41b82e61b9db6 = $(`<div id="html_3e5405ec0f9d6f69d4e41b82e61b9db6" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Nioro du Rip</strong><br>             <em>Culturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_d14b4fcbfe3b8f6b573de9208227da27.setContent(html_3e5405ec0f9d6f69d4e41b82e61b9db6);
+        
+
+        marker_d3cd165c5c204f6564ee50eb4c502768.bindPopup(popup_d14b4fcbfe3b8f6b573de9208227da27)
+        ;
+
+        
+    
+    
+            marker_d3cd165c5c204f6564ee50eb4c502768.bindTooltip(
+                `<div>
+                     Nioro du Rip
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5e0a7b72cab32549de773f3991ce60b3 = L.marker(
+                [12.734879850765857, -15.209159150589137],
+                {}
+            ).addTo(feature_group_55124d21a1cb9a96838b6db196be1ec3);
+        
+    
+            var icon_abca1fb4b0de904e983290d60c1ad438 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5e0a7b72cab32549de773f3991ce60b3.setIcon(icon_abca1fb4b0de904e983290d60c1ad438);
+        
+    
+        var popup_618abf9a456d8cf741eceb7b715e63e9 = L.popup({"maxWidth": 250});
+
+        
+            var html_3ca32d9c008ab1f250b9750b0e2428f6 = $(`<div id="html_3ca32d9c008ab1f250b9750b0e2428f6" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Tambi Dibi</strong><br>             <em>Culturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_618abf9a456d8cf741eceb7b715e63e9.setContent(html_3ca32d9c008ab1f250b9750b0e2428f6);
+        
+
+        marker_5e0a7b72cab32549de773f3991ce60b3.bindPopup(popup_618abf9a456d8cf741eceb7b715e63e9)
+        ;
+
+        
+    
+    
+            marker_5e0a7b72cab32549de773f3991ce60b3.bindTooltip(
+                `<div>
+                     Tambi Dibi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_65988567e46ebc95cb77da0611f901b6 = L.marker(
+                [14.766188222095384, -17.447902217411155],
+                {}
+            ).addTo(feature_group_55124d21a1cb9a96838b6db196be1ec3);
+        
+    
+            var icon_24e5a67a7e30104676ff3c8a36369a03 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_65988567e46ebc95cb77da0611f901b6.setIcon(icon_24e5a67a7e30104676ff3c8a36369a03);
+        
+    
+        var popup_bd6e6cf9cdf35fcac1d7e93733c165c1 = L.popup({"maxWidth": 250});
+
+        
+            var html_bcdc26d8662ebce8a9bf44eae8ae9162 = $(`<div id="html_bcdc26d8662ebce8a9bf44eae8ae9162" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Les 12 pencs lébou</strong><br>             <em>Culturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_bd6e6cf9cdf35fcac1d7e93733c165c1.setContent(html_bcdc26d8662ebce8a9bf44eae8ae9162);
+        
+
+        marker_65988567e46ebc95cb77da0611f901b6.bindPopup(popup_bd6e6cf9cdf35fcac1d7e93733c165c1)
+        ;
+
+        
+    
+    
+            marker_65988567e46ebc95cb77da0611f901b6.bindTooltip(
+                `<div>
+                     Les 12 pencs lébou
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_930753d9da2030af766e6f3375d208e8 = L.marker(
+                [16.499191550004017, -15.8119388197154],
+                {}
+            ).addTo(feature_group_55124d21a1cb9a96838b6db196be1ec3);
+        
+    
+            var icon_13e8770f8efdbe9b55303fcd54b1e092 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_930753d9da2030af766e6f3375d208e8.setIcon(icon_13e8770f8efdbe9b55303fcd54b1e092);
+        
+    
+        var popup_15511d0fd3d110390c699d1d55819848 = L.popup({"maxWidth": 250});
+
+        
+            var html_61161a9c68f4ccf96cfc8816a8ad2b07 = $(`<div id="html_61161a9c68f4ccf96cfc8816a8ad2b07" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Rosso</strong><br>             <em>Culturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_15511d0fd3d110390c699d1d55819848.setContent(html_61161a9c68f4ccf96cfc8816a8ad2b07);
+        
+
+        marker_930753d9da2030af766e6f3375d208e8.bindPopup(popup_15511d0fd3d110390c699d1d55819848)
+        ;
+
+        
+    
+    
+            marker_930753d9da2030af766e6f3375d208e8.bindTooltip(
+                `<div>
+                     Rosso
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f5132688a8d772203d29a0f37769234c = L.marker(
+                [15.395203401572862, -15.112364240188917],
+                {}
+            ).addTo(feature_group_55124d21a1cb9a96838b6db196be1ec3);
+        
+    
+            var icon_52c9e0aa257c5d044830dbdd5866fbe9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f5132688a8d772203d29a0f37769234c.setIcon(icon_52c9e0aa257c5d044830dbdd5866fbe9);
+        
+    
+        var popup_6a3f64dbaa5f6ae49ba3cc02d2464614 = L.popup({"maxWidth": 250});
+
+        
+            var html_ee6f050ad6c3c3b35d66b47acca83757 = $(`<div id="html_ee6f050ad6c3c3b35d66b47acca83757" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Linguère</strong><br>             <em>Culturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_6a3f64dbaa5f6ae49ba3cc02d2464614.setContent(html_ee6f050ad6c3c3b35d66b47acca83757);
+        
+
+        marker_f5132688a8d772203d29a0f37769234c.bindPopup(popup_6a3f64dbaa5f6ae49ba3cc02d2464614)
+        ;
+
+        
+    
+    
+            marker_f5132688a8d772203d29a0f37769234c.bindTooltip(
+                `<div>
+                     Linguère
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f52748452ae43c1d1dd2f171af017f4a = L.marker(
+                [15.966529016738628, -13.595365718983683],
+                {}
+            ).addTo(feature_group_55124d21a1cb9a96838b6db196be1ec3);
+        
+    
+            var icon_504d25907cb5a8acd4a9b36a380ec35d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f52748452ae43c1d1dd2f171af017f4a.setIcon(icon_504d25907cb5a8acd4a9b36a380ec35d);
+        
+    
+        var popup_2b9b55653d110da63c52d341ca9e9e14 = L.popup({"maxWidth": 250});
+
+        
+            var html_de9c90d612683a9443cc4a9a94422c70 = $(`<div id="html_de9c90d612683a9443cc4a9a94422c70" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Thilogne</strong><br>             <em>Culturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_2b9b55653d110da63c52d341ca9e9e14.setContent(html_de9c90d612683a9443cc4a9a94422c70);
+        
+
+        marker_f52748452ae43c1d1dd2f171af017f4a.bindPopup(popup_2b9b55653d110da63c52d341ca9e9e14)
+        ;
+
+        
+    
+    
+            marker_f52748452ae43c1d1dd2f171af017f4a.bindTooltip(
+                `<div>
+                     Thilogne
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_95dc8ec4fb9875822174efe52df3cbe9 = L.marker(
+                [15.611409397798313, -13.322688983199397],
+                {}
+            ).addTo(feature_group_55124d21a1cb9a96838b6db196be1ec3);
+        
+    
+            var icon_a61966b6f3665ccb29b463af17db29bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_95dc8ec4fb9875822174efe52df3cbe9.setIcon(icon_a61966b6f3665ccb29b463af17db29bd);
+        
+    
+        var popup_237a6fe8857604f0e5bb6ed50d503391 = L.popup({"maxWidth": 250});
+
+        
+            var html_e066e548c035c0526aff5eaea9ce83a3 = $(`<div id="html_e066e548c035c0526aff5eaea9ce83a3" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Ourossogui</strong><br>             <em>Culturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_237a6fe8857604f0e5bb6ed50d503391.setContent(html_e066e548c035c0526aff5eaea9ce83a3);
+        
+
+        marker_95dc8ec4fb9875822174efe52df3cbe9.bindPopup(popup_237a6fe8857604f0e5bb6ed50d503391)
+        ;
+
+        
+    
+    
+            marker_95dc8ec4fb9875822174efe52df3cbe9.bindTooltip(
+                `<div>
+                     Ourossogui
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e0e176526aa3a6a658eeae6868fc897d = L.marker(
+                [13.980216584497464, -14.563347993303639],
+                {}
+            ).addTo(feature_group_55124d21a1cb9a96838b6db196be1ec3);
+        
+    
+            var icon_7232b0f5fb328098cd9d7cddd70f500c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e0e176526aa3a6a658eeae6868fc897d.setIcon(icon_7232b0f5fb328098cd9d7cddd70f500c);
+        
+    
+        var popup_1ad7106f28a3bb1a8844d38fbea36b66 = L.popup({"maxWidth": 250});
+
+        
+            var html_941dc5683eaece2359ae39f58fecdd88 = $(`<div id="html_941dc5683eaece2359ae39f58fecdd88" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Koumpentoum</strong><br>             <em>Culturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_1ad7106f28a3bb1a8844d38fbea36b66.setContent(html_941dc5683eaece2359ae39f58fecdd88);
+        
+
+        marker_e0e176526aa3a6a658eeae6868fc897d.bindPopup(popup_1ad7106f28a3bb1a8844d38fbea36b66)
+        ;
+
+        
+    
+    
+            marker_e0e176526aa3a6a658eeae6868fc897d.bindTooltip(
+                `<div>
+                     Koumpentoum
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0910e699d997d5a331a4a0dac22bd604 = L.marker(
+                [14.456522347780762, -12.213540652375743],
+                {}
+            ).addTo(feature_group_55124d21a1cb9a96838b6db196be1ec3);
+        
+    
+            var icon_a755ce281bd8ca14c2d7f02973214b25 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0910e699d997d5a331a4a0dac22bd604.setIcon(icon_a755ce281bd8ca14c2d7f02973214b25);
+        
+    
+        var popup_3cc4e3b05804776da081520104979061 = L.popup({"maxWidth": 250});
+
+        
+            var html_c2b31a4dd3902297b643550792c35504 = $(`<div id="html_c2b31a4dd3902297b643550792c35504" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Kidira</strong><br>             <em>Culturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_3cc4e3b05804776da081520104979061.setContent(html_c2b31a4dd3902297b643550792c35504);
+        
+
+        marker_0910e699d997d5a331a4a0dac22bd604.bindPopup(popup_3cc4e3b05804776da081520104979061)
+        ;
+
+        
+    
+    
+            marker_0910e699d997d5a331a4a0dac22bd604.bindTooltip(
+                `<div>
+                     Kidira
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_09dd7265619ab4eb3d678b764b79f825 = L.marker(
+                [13.040352707404988, -13.297763384890624],
+                {}
+            ).addTo(feature_group_55124d21a1cb9a96838b6db196be1ec3);
+        
+    
+            var icon_d60d53341436ff53c89129c81346f2cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_09dd7265619ab4eb3d678b764b79f825.setIcon(icon_d60d53341436ff53c89129c81346f2cd);
+        
+    
+        var popup_87cc6b16f61cef00093cc361d8ba9d7d = L.popup({"maxWidth": 250});
+
+        
+            var html_f21fb52c38bd390461c86803721600c8 = $(`<div id="html_f21fb52c38bd390461c86803721600c8" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Simenti</strong><br>             <em>Culturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_87cc6b16f61cef00093cc361d8ba9d7d.setContent(html_f21fb52c38bd390461c86803721600c8);
+        
+
+        marker_09dd7265619ab4eb3d678b764b79f825.bindPopup(popup_87cc6b16f61cef00093cc361d8ba9d7d)
+        ;
+
+        
+    
+    
+            marker_09dd7265619ab4eb3d678b764b79f825.bindTooltip(
+                `<div>
+                     Simenti
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_563e67f2322dafb8e153a020ceabf26b = L.marker(
+                [12.591088861111754, -12.850913471413362],
+                {}
+            ).addTo(feature_group_55124d21a1cb9a96838b6db196be1ec3);
+        
+    
+            var icon_21696df315fd2326811e2ce1bdd70296 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_563e67f2322dafb8e153a020ceabf26b.setIcon(icon_21696df315fd2326811e2ce1bdd70296);
+        
+    
+        var popup_31476861b4bf218ead1a43bc03e0b10a = L.popup({"maxWidth": 250});
+
+        
+            var html_1737693274f8aee11c11ca7edabedc9e = $(`<div id="html_1737693274f8aee11c11ca7edabedc9e" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Ethiolo</strong><br>             <em>Culturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_31476861b4bf218ead1a43bc03e0b10a.setContent(html_1737693274f8aee11c11ca7edabedc9e);
+        
+
+        marker_563e67f2322dafb8e153a020ceabf26b.bindPopup(popup_31476861b4bf218ead1a43bc03e0b10a)
+        ;
+
+        
+    
+    
+            marker_563e67f2322dafb8e153a020ceabf26b.bindTooltip(
+                `<div>
+                     Ethiolo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_41613bfcaed2fa370a44fa81a96e0020 = L.marker(
+                [12.554825573997167, -12.861021905602446],
+                {}
+            ).addTo(feature_group_55124d21a1cb9a96838b6db196be1ec3);
+        
+    
+            var icon_08d5cf5f475e2686e64c1cbaf94ec58e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_41613bfcaed2fa370a44fa81a96e0020.setIcon(icon_08d5cf5f475e2686e64c1cbaf94ec58e);
+        
+    
+        var popup_e40b2b58d6f3db2190d690c1d6671f39 = L.popup({"maxWidth": 250});
+
+        
+            var html_52782b47580f6262a87cde933e467b72 = $(`<div id="html_52782b47580f6262a87cde933e467b72" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Pays Bedik</strong><br>             <em>Culturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_e40b2b58d6f3db2190d690c1d6671f39.setContent(html_52782b47580f6262a87cde933e467b72);
+        
+
+        marker_41613bfcaed2fa370a44fa81a96e0020.bindPopup(popup_e40b2b58d6f3db2190d690c1d6671f39)
+        ;
+
+        
+    
+    
+            marker_41613bfcaed2fa370a44fa81a96e0020.bindTooltip(
+                `<div>
+                     Pays Bedik
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7c51c9f6d2e721f2282f9071ae24b15e = L.marker(
+                [12.633376169433564, -12.827771904215053],
+                {}
+            ).addTo(feature_group_55124d21a1cb9a96838b6db196be1ec3);
+        
+    
+            var icon_1cfcd126571230e354a65b66b430af98 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7c51c9f6d2e721f2282f9071ae24b15e.setIcon(icon_1cfcd126571230e354a65b66b430af98);
+        
+    
+        var popup_cd05fe1911e949e06c3b87dad38d1426 = L.popup({"maxWidth": 250});
+
+        
+            var html_75bdcedd13d02c320c605a1b348d09e5 = $(`<div id="html_75bdcedd13d02c320c605a1b348d09e5" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Salemata</strong><br>             <em>Culturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_cd05fe1911e949e06c3b87dad38d1426.setContent(html_75bdcedd13d02c320c605a1b348d09e5);
+        
+
+        marker_7c51c9f6d2e721f2282f9071ae24b15e.bindPopup(popup_cd05fe1911e949e06c3b87dad38d1426)
+        ;
+
+        
+    
+    
+            marker_7c51c9f6d2e721f2282f9071ae24b15e.bindTooltip(
+                `<div>
+                     Salemata
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1f61ab3cfe5a5dae3c5305a925c04c7a = L.marker(
+                [12.838072183090985, -11.751103630373777],
+                {}
+            ).addTo(feature_group_55124d21a1cb9a96838b6db196be1ec3);
+        
+    
+            var icon_061112345047cd17295e3e3476cb163f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1f61ab3cfe5a5dae3c5305a925c04c7a.setIcon(icon_061112345047cd17295e3e3476cb163f);
+        
+    
+        var popup_a82bac9a557f2e3d800f3c69d0a7f4cd = L.popup({"maxWidth": 250});
+
+        
+            var html_35eef7c6f1fe5e6f68bf157a86cc038c = $(`<div id="html_35eef7c6f1fe5e6f68bf157a86cc038c" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Saraya</strong><br>             <em>Culturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_a82bac9a557f2e3d800f3c69d0a7f4cd.setContent(html_35eef7c6f1fe5e6f68bf157a86cc038c);
+        
+
+        marker_1f61ab3cfe5a5dae3c5305a925c04c7a.bindPopup(popup_a82bac9a557f2e3d800f3c69d0a7f4cd)
+        ;
+
+        
+    
+    
+            marker_1f61ab3cfe5a5dae3c5305a925c04c7a.bindTooltip(
+                `<div>
+                     Saraya
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c16eb3cf8a4f0bfaaeb8b34c5e227a87 = L.marker(
+                [13.788585698050113, -15.80065078392545],
+                {}
+            ).addTo(feature_group_55124d21a1cb9a96838b6db196be1ec3);
+        
+    
+            var icon_25c0eb06003b1a1cfdde56890c5cffeb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c16eb3cf8a4f0bfaaeb8b34c5e227a87.setIcon(icon_25c0eb06003b1a1cfdde56890c5cffeb);
+        
+    
+        var popup_c3f390f827bab9259d230dbae8087d33 = L.popup({"maxWidth": 250});
+
+        
+            var html_e5fc6e445f84051aca4b59a14b8edacb = $(`<div id="html_e5fc6e445f84051aca4b59a14b8edacb" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Paoskoto</strong><br>             <em>Culturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_c3f390f827bab9259d230dbae8087d33.setContent(html_e5fc6e445f84051aca4b59a14b8edacb);
+        
+
+        marker_c16eb3cf8a4f0bfaaeb8b34c5e227a87.bindPopup(popup_c3f390f827bab9259d230dbae8087d33)
+        ;
+
+        
+    
+    
+            marker_c16eb3cf8a4f0bfaaeb8b34c5e227a87.bindTooltip(
+                `<div>
+                     Paoskoto
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_43da11ed4e9312b9979991b89e832dee = L.marker(
+                [13.690239018942755, -16.62990250513305],
+                {}
+            ).addTo(feature_group_55124d21a1cb9a96838b6db196be1ec3);
+        
+    
+            var icon_2ad96fc9b24de6d787d7508652e6b4c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_43da11ed4e9312b9979991b89e832dee.setIcon(icon_2ad96fc9b24de6d787d7508652e6b4c1);
+        
+    
+        var popup_e780916c80946fbed40bb4c51ae3d354 = L.popup({"maxWidth": 250});
+
+        
+            var html_b0c6f57d9af19fa58256bcef991892a8 = $(`<div id="html_b0c6f57d9af19fa58256bcef991892a8" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Betenty</strong><br>             <em>Culturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_e780916c80946fbed40bb4c51ae3d354.setContent(html_b0c6f57d9af19fa58256bcef991892a8);
+        
+
+        marker_43da11ed4e9312b9979991b89e832dee.bindPopup(popup_e780916c80946fbed40bb4c51ae3d354)
+        ;
+
+        
+    
+    
+            marker_43da11ed4e9312b9979991b89e832dee.bindTooltip(
+                `<div>
+                     Betenty
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_88e9e3bb54b3a52cbb5cf810624a21cf = L.marker(
+                [16.296234501707225, -14.820073802021563],
+                {}
+            ).addTo(feature_group_55124d21a1cb9a96838b6db196be1ec3);
+        
+    
+            var icon_70e5922850866686853d2e7955ce636e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_88e9e3bb54b3a52cbb5cf810624a21cf.setIcon(icon_70e5922850866686853d2e7955ce636e);
+        
+    
+        var popup_58adb33cf3a0ac88992da28994e2ed4e = L.popup({"maxWidth": 250});
+
+        
+            var html_c7c4724dbb2d2f343c95301915e34ee3 = $(`<div id="html_c7c4724dbb2d2f343c95301915e34ee3" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Guédé</strong><br>             <em>Culturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_58adb33cf3a0ac88992da28994e2ed4e.setContent(html_c7c4724dbb2d2f343c95301915e34ee3);
+        
+
+        marker_88e9e3bb54b3a52cbb5cf810624a21cf.bindPopup(popup_58adb33cf3a0ac88992da28994e2ed4e)
+        ;
+
+        
+    
+    
+            marker_88e9e3bb54b3a52cbb5cf810624a21cf.bindTooltip(
+                `<div>
+                     Guédé
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dfe550e9fa96c54d1fa5eb7743c27351 = L.marker(
+                [12.751658439640776, -15.717256545912146],
+                {}
+            ).addTo(feature_group_55124d21a1cb9a96838b6db196be1ec3);
+        
+    
+            var icon_c82b88376cae7bbf4c72bc58e47a0ecd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dfe550e9fa96c54d1fa5eb7743c27351.setIcon(icon_c82b88376cae7bbf4c72bc58e47a0ecd);
+        
+    
+        var popup_28f25b226c8e8072d4c79d4456a0cdb9 = L.popup({"maxWidth": 250});
+
+        
+            var html_c8020d86522fc4b47d6aece7436cdff6 = $(`<div id="html_c8020d86522fc4b47d6aece7436cdff6" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Sédhiou</strong><br>             <em>Culturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_28f25b226c8e8072d4c79d4456a0cdb9.setContent(html_c8020d86522fc4b47d6aece7436cdff6);
+        
+
+        marker_dfe550e9fa96c54d1fa5eb7743c27351.bindPopup(popup_28f25b226c8e8072d4c79d4456a0cdb9)
+        ;
+
+        
+    
+    
+            marker_dfe550e9fa96c54d1fa5eb7743c27351.bindTooltip(
+                `<div>
+                     Sédhiou
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7694451b864e41cd8949dcf3d79696ab = L.marker(
+                [15.377007105622946, -13.425613915934399],
+                {}
+            ).addTo(feature_group_55124d21a1cb9a96838b6db196be1ec3);
+        
+    
+            var icon_c0dbc3c8eb7531ee761bbb84279b276b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7694451b864e41cd8949dcf3d79696ab.setIcon(icon_c0dbc3c8eb7531ee761bbb84279b276b);
+        
+    
+        var popup_8ef27262b3ffeee94383ba63605f2629 = L.popup({"maxWidth": 250});
+
+        
+            var html_2358ad7e665503046eaf603aa06693fc = $(`<div id="html_2358ad7e665503046eaf603aa06693fc" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Séno-Palel</strong><br>             <em>Culturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_8ef27262b3ffeee94383ba63605f2629.setContent(html_2358ad7e665503046eaf603aa06693fc);
+        
+
+        marker_7694451b864e41cd8949dcf3d79696ab.bindPopup(popup_8ef27262b3ffeee94383ba63605f2629)
+        ;
+
+        
+    
+    
+            marker_7694451b864e41cd8949dcf3d79696ab.bindTooltip(
+                `<div>
+                     Séno-Palel
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5131c099c65ef9362ce00778bda7930e = L.marker(
+                [12.867053753460935, -14.663842600748968],
+                {}
+            ).addTo(feature_group_55124d21a1cb9a96838b6db196be1ec3);
+        
+    
+            var icon_8126eca27affe36c5aceaab23536c315 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5131c099c65ef9362ce00778bda7930e.setIcon(icon_8126eca27affe36c5aceaab23536c315);
+        
+    
+        var popup_f324d57ce327dd4087f406f75f3816c5 = L.popup({"maxWidth": 250});
+
+        
+            var html_676afa83079c030c263fb8981e768a51 = $(`<div id="html_676afa83079c030c263fb8981e768a51" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Kolda</strong><br>             <em>Culturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_f324d57ce327dd4087f406f75f3816c5.setContent(html_676afa83079c030c263fb8981e768a51);
+        
+
+        marker_5131c099c65ef9362ce00778bda7930e.bindPopup(popup_f324d57ce327dd4087f406f75f3816c5)
+        ;
+
+        
+    
+    
+            marker_5131c099c65ef9362ce00778bda7930e.bindTooltip(
+                `<div>
+                     Kolda
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8f27213dd97dbf1b8bdfdd419632e68e = L.marker(
+                [12.624187469855812, -15.453045844725713],
+                {}
+            ).addTo(feature_group_55124d21a1cb9a96838b6db196be1ec3);
+        
+    
+            var icon_2902950857af3e410c81209bde7206bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8f27213dd97dbf1b8bdfdd419632e68e.setIcon(icon_2902950857af3e410c81209bde7206bd);
+        
+    
+        var popup_3cc5816a32bbb9951e2ced19ffcfbc46 = L.popup({"maxWidth": 250});
+
+        
+            var html_09c473f6e41aa8a74fb26ddb60a6c57c = $(`<div id="html_09c473f6e41aa8a74fb26ddb60a6c57c" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Goudomp</strong><br>             <em>Culturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_3cc5816a32bbb9951e2ced19ffcfbc46.setContent(html_09c473f6e41aa8a74fb26ddb60a6c57c);
+        
+
+        marker_8f27213dd97dbf1b8bdfdd419632e68e.bindPopup(popup_3cc5816a32bbb9951e2ced19ffcfbc46)
+        ;
+
+        
+    
+    
+            marker_8f27213dd97dbf1b8bdfdd419632e68e.bindTooltip(
+                `<div>
+                     Goudomp
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_48eaa40499f396f3723d39b33aaeba55 = L.marker(
+                [12.962026596073123, -13.79105377225433],
+                {}
+            ).addTo(feature_group_55124d21a1cb9a96838b6db196be1ec3);
+        
+    
+            var icon_941b86da7587ee65af124ef0e6a26af3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_48eaa40499f396f3723d39b33aaeba55.setIcon(icon_941b86da7587ee65af124ef0e6a26af3);
+        
+    
+        var popup_ffee4e7a06decd564ecb10e004a9d459 = L.popup({"maxWidth": 250});
+
+        
+            var html_8f4c6d6fdb3b430cd7ae97fb47b3db11 = $(`<div id="html_8f4c6d6fdb3b430cd7ae97fb47b3db11" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Vélingara</strong><br>             <em>Culturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_ffee4e7a06decd564ecb10e004a9d459.setContent(html_8f4c6d6fdb3b430cd7ae97fb47b3db11);
+        
+
+        marker_48eaa40499f396f3723d39b33aaeba55.bindPopup(popup_ffee4e7a06decd564ecb10e004a9d459)
+        ;
+
+        
+    
+    
+            marker_48eaa40499f396f3723d39b33aaeba55.bindTooltip(
+                `<div>
+                     Vélingara
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_259680d67ccd3f332281600ccad512c1 = L.marker(
+                [12.559418497327773, -12.273132384950591],
+                {}
+            ).addTo(feature_group_55124d21a1cb9a96838b6db196be1ec3);
+        
+    
+            var icon_3aab5ee0e2908505c98e398154bc30e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_259680d67ccd3f332281600ccad512c1.setIcon(icon_3aab5ee0e2908505c98e398154bc30e1);
+        
+    
+        var popup_e6787593524a182e840429576d92d715 = L.popup({"maxWidth": 250});
+
+        
+            var html_9c216668adfe25f52b1a575671eb8bb7 = $(`<div id="html_9c216668adfe25f52b1a575671eb8bb7" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Bandafassi</strong><br>             <em>Culturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_e6787593524a182e840429576d92d715.setContent(html_9c216668adfe25f52b1a575671eb8bb7);
+        
+
+        marker_259680d67ccd3f332281600ccad512c1.bindPopup(popup_e6787593524a182e840429576d92d715)
+        ;
+
+        
+    
+    
+            marker_259680d67ccd3f332281600ccad512c1.bindTooltip(
+                `<div>
+                     Bandafassi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6c152434d582cc5f79cddb207982fbd6 = L.marker(
+                [12.434610611679915, -12.12833077993863],
+                {}
+            ).addTo(feature_group_55124d21a1cb9a96838b6db196be1ec3);
+        
+    
+            var icon_a2f998b0abc74b9c508193b87baade75 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6c152434d582cc5f79cddb207982fbd6.setIcon(icon_a2f998b0abc74b9c508193b87baade75);
+        
+    
+        var popup_d555a9f99586d830a282f3eb89de7a49 = L.popup({"maxWidth": 250});
+
+        
+            var html_0534ce68f5f51ac52fa6ffdfac4ec5eb = $(`<div id="html_0534ce68f5f51ac52fa6ffdfac4ec5eb" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Fongolimbi</strong><br>             <em>Culturel</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_d555a9f99586d830a282f3eb89de7a49.setContent(html_0534ce68f5f51ac52fa6ffdfac4ec5eb);
+        
+
+        marker_6c152434d582cc5f79cddb207982fbd6.bindPopup(popup_d555a9f99586d830a282f3eb89de7a49)
+        ;
+
+        
+    
+    
+            marker_6c152434d582cc5f79cddb207982fbd6.bindTooltip(
+                `<div>
+                     Fongolimbi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_b7f292dbad99e4e095252b3028886d30 = L.featureGroup(
+                {}
+            ).addTo(map_6801f85eb88eb1952a30a7b966a55958);
+        
+    
+            var marker_64ae9dc06fb1e26e90c7509c7b09eb49 = L.marker(
+                [14.723616899587947, -17.501575700423146],
+                {}
+            ).addTo(feature_group_b7f292dbad99e4e095252b3028886d30);
+        
+    
+            var icon_c7078c117ed7fbbd31c241cc9e992ea5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_64ae9dc06fb1e26e90c7509c7b09eb49.setIcon(icon_c7078c117ed7fbbd31c241cc9e992ea5);
+        
+    
+        var popup_7d010f2df0f56b2813f257cd6453de2a = L.popup({"maxWidth": 250});
+
+        
+            var html_7ba5479cdc45e88c6c8a2a348feb0d84 = $(`<div id="html_7ba5479cdc45e88c6c8a2a348feb0d84" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Phare des Mamelles</strong><br>             <em>Historique</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_7d010f2df0f56b2813f257cd6453de2a.setContent(html_7ba5479cdc45e88c6c8a2a348feb0d84);
+        
+
+        marker_64ae9dc06fb1e26e90c7509c7b09eb49.bindPopup(popup_7d010f2df0f56b2813f257cd6453de2a)
+        ;
+
+        
+    
+    
+            marker_64ae9dc06fb1e26e90c7509c7b09eb49.bindTooltip(
+                `<div>
+                     Phare des Mamelles
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5b0456288d83ec4793951cae76f0b9d1 = L.marker(
+                [14.677287700571785, -17.435130700187628],
+                {}
+            ).addTo(feature_group_b7f292dbad99e4e095252b3028886d30);
+        
+    
+            var icon_4c182319d1e0a085f25d0b5075ed1240 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_5b0456288d83ec4793951cae76f0b9d1.setIcon(icon_4c182319d1e0a085f25d0b5075ed1240);
+        
+    
+        var popup_41678ba85cb8cd19fb9986fabb1bc84e = L.popup({"maxWidth": 250});
+
+        
+            var html_edb3b5f6f874125199639e72c409f07f = $(`<div id="html_edb3b5f6f874125199639e72c409f07f" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Musée des Civilisations noires</strong><br>             <em>Historique</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_41678ba85cb8cd19fb9986fabb1bc84e.setContent(html_edb3b5f6f874125199639e72c409f07f);
+        
+
+        marker_5b0456288d83ec4793951cae76f0b9d1.bindPopup(popup_41678ba85cb8cd19fb9986fabb1bc84e)
+        ;
+
+        
+    
+    
+            marker_5b0456288d83ec4793951cae76f0b9d1.bindTooltip(
+                `<div>
+                     Musée des Civilisations noires
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6e9de0b90c6dc5bd77ee3a189b0dc113 = L.marker(
+                [14.789768800112766, -16.929565899713516],
+                {}
+            ).addTo(feature_group_b7f292dbad99e4e095252b3028886d30);
+        
+    
+            var icon_209a85c62fc28a1d0c18b2af52467827 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_6e9de0b90c6dc5bd77ee3a189b0dc113.setIcon(icon_209a85c62fc28a1d0c18b2af52467827);
+        
+    
+        var popup_b9ce9498d3f8daa937e6dd2a2c686d10 = L.popup({"maxWidth": 250});
+
+        
+            var html_13f99e0e583ba12ae605333dabbea24b = $(`<div id="html_13f99e0e583ba12ae605333dabbea24b" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Cayor Residence</strong><br>             <em>Historique</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_b9ce9498d3f8daa937e6dd2a2c686d10.setContent(html_13f99e0e583ba12ae605333dabbea24b);
+        
+
+        marker_6e9de0b90c6dc5bd77ee3a189b0dc113.bindPopup(popup_b9ce9498d3f8daa937e6dd2a2c686d10)
+        ;
+
+        
+    
+    
+            marker_6e9de0b90c6dc5bd77ee3a189b0dc113.bindTooltip(
+                `<div>
+                     Cayor Residence
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2b9471170bb3509e824c0eca78f829fe = L.marker(
+                [14.794296099354423, -16.934297600103218],
+                {}
+            ).addTo(feature_group_b7f292dbad99e4e095252b3028886d30);
+        
+    
+            var icon_02d248c3206677a264e1e7b695b948f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_2b9471170bb3509e824c0eca78f829fe.setIcon(icon_02d248c3206677a264e1e7b695b948f6);
+        
+    
+        var popup_5e8afab2cbd2dc08792cab7a50aba7f3 = L.popup({"maxWidth": 250});
+
+        
+            var html_aefeb8de0bd341b9782bfdb0f598ece0 = $(`<div id="html_aefeb8de0bd341b9782bfdb0f598ece0" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Manufacture Sénégalaise Des Arts Décoratifs</strong><br>             <em>Historique</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_5e8afab2cbd2dc08792cab7a50aba7f3.setContent(html_aefeb8de0bd341b9782bfdb0f598ece0);
+        
+
+        marker_2b9471170bb3509e824c0eca78f829fe.bindPopup(popup_5e8afab2cbd2dc08792cab7a50aba7f3)
+        ;
+
+        
+    
+    
+            marker_2b9471170bb3509e824c0eca78f829fe.bindTooltip(
+                `<div>
+                     Manufacture Sénégalaise Des Arts Décoratifs
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dd1c4d0fe85b63c0dabdd97afc859b6a = L.marker(
+                [16.01880859962853, -16.50551810003428],
+                {}
+            ).addTo(feature_group_b7f292dbad99e4e095252b3028886d30);
+        
+    
+            var icon_bb8bc2024cd9fb102701cb230e36ddb3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_dd1c4d0fe85b63c0dabdd97afc859b6a.setIcon(icon_bb8bc2024cd9fb102701cb230e36ddb3);
+        
+    
+        var popup_bdff661569d6f3a8a4925efad38b1dfa = L.popup({"maxWidth": 250});
+
+        
+            var html_b328c9e289db05acf2ad5ed515a6ca31 = $(`<div id="html_b328c9e289db05acf2ad5ed515a6ca31" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Musée de L'IFAN</strong><br>             <em>Historique</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_bdff661569d6f3a8a4925efad38b1dfa.setContent(html_b328c9e289db05acf2ad5ed515a6ca31);
+        
+
+        marker_dd1c4d0fe85b63c0dabdd97afc859b6a.bindPopup(popup_bdff661569d6f3a8a4925efad38b1dfa)
+        ;
+
+        
+    
+    
+            marker_dd1c4d0fe85b63c0dabdd97afc859b6a.bindTooltip(
+                `<div>
+                     Musée de L'IFAN
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c93bd20c8d6938102e183295e9ef660a = L.marker(
+                [16.02583140057899, -16.50391259982368],
+                {}
+            ).addTo(feature_group_b7f292dbad99e4e095252b3028886d30);
+        
+    
+            var icon_f093a13c78bdd5481a5661154a18e8a1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_c93bd20c8d6938102e183295e9ef660a.setIcon(icon_f093a13c78bdd5481a5661154a18e8a1);
+        
+    
+        var popup_0b13ffd2115f61e0d618940f6a950df5 = L.popup({"maxWidth": 250});
+
+        
+            var html_7c54ef46a1ebaade8cccf768ab540ec9 = $(`<div id="html_7c54ef46a1ebaade8cccf768ab540ec9" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Musée Jean Mermoz</strong><br>             <em>Historique</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_0b13ffd2115f61e0d618940f6a950df5.setContent(html_7c54ef46a1ebaade8cccf768ab540ec9);
+        
+
+        marker_c93bd20c8d6938102e183295e9ef660a.bindPopup(popup_0b13ffd2115f61e0d618940f6a950df5)
+        ;
+
+        
+    
+    
+            marker_c93bd20c8d6938102e183295e9ef660a.bindTooltip(
+                `<div>
+                     Musée Jean Mermoz
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3d4e3e435f42fc932f28f4a454e5a2df = L.marker(
+                [16.025793900383782, -16.501295199761756],
+                {}
+            ).addTo(feature_group_b7f292dbad99e4e095252b3028886d30);
+        
+    
+            var icon_74778023f8db1d6cd15c57c1bccc9b4c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_3d4e3e435f42fc932f28f4a454e5a2df.setIcon(icon_74778023f8db1d6cd15c57c1bccc9b4c);
+        
+    
+        var popup_8e6e9920af412ca0e93d1ebcd29858f7 = L.popup({"maxWidth": 250});
+
+        
+            var html_8dc37871be068eb2dd5dd6accbd07d29 = $(`<div id="html_8dc37871be068eb2dd5dd6accbd07d29" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Pont Faidherbe</strong><br>             <em>Historique</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_8e6e9920af412ca0e93d1ebcd29858f7.setContent(html_8dc37871be068eb2dd5dd6accbd07d29);
+        
+
+        marker_3d4e3e435f42fc932f28f4a454e5a2df.bindPopup(popup_8e6e9920af412ca0e93d1ebcd29858f7)
+        ;
+
+        
+    
+    
+            marker_3d4e3e435f42fc932f28f4a454e5a2df.bindTooltip(
+                `<div>
+                     Pont Faidherbe
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eda3f0efa8c460a4d28e06d73143a3ca = L.marker(
+                [14.115819400451567, -16.655652200181898],
+                {}
+            ).addTo(feature_group_b7f292dbad99e4e095252b3028886d30);
+        
+    
+            var icon_2f700acb818d83fd8ef97cdbc4240f9f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_eda3f0efa8c460a4d28e06d73143a3ca.setIcon(icon_2f700acb818d83fd8ef97cdbc4240f9f);
+        
+    
+        var popup_00a3879ed2076c861b05fa7fdfb79552 = L.popup({"maxWidth": 250});
+
+        
+            var html_36a72a11f937b9eef732de23e24027e4 = $(`<div id="html_36a72a11f937b9eef732de23e24027e4" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Maison Familliale de Senghor</strong><br>             <em>Historique</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_00a3879ed2076c861b05fa7fdfb79552.setContent(html_36a72a11f937b9eef732de23e24027e4);
+        
+
+        marker_eda3f0efa8c460a4d28e06d73143a3ca.bindPopup(popup_00a3879ed2076c861b05fa7fdfb79552)
+        ;
+
+        
+    
+    
+            marker_eda3f0efa8c460a4d28e06d73143a3ca.bindTooltip(
+                `<div>
+                     Maison Familliale de Senghor
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d525b879458ef4c234b923ffa1e587ec = L.marker(
+                [14.11957239968423, -16.65988899962881],
+                {}
+            ).addTo(feature_group_b7f292dbad99e4e095252b3028886d30);
+        
+    
+            var icon_490d16851f7bf5f6890899a29df8a7b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_d525b879458ef4c234b923ffa1e587ec.setIcon(icon_490d16851f7bf5f6890899a29df8a7b0);
+        
+    
+        var popup_0b53f78c3f921d64c1a70bfdc3447284 = L.popup({"maxWidth": 250});
+
+        
+            var html_7425ab175c942e57a3f086b5b2c32d93 = $(`<div id="html_7425ab175c942e57a3f086b5b2c32d93" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Musée MAHICAO</strong><br>             <em>Historique</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_0b53f78c3f921d64c1a70bfdc3447284.setContent(html_7425ab175c942e57a3f086b5b2c32d93);
+        
+
+        marker_d525b879458ef4c234b923ffa1e587ec.bindPopup(popup_0b53f78c3f921d64c1a70bfdc3447284)
+        ;
+
+        
+    
+    
+            marker_d525b879458ef4c234b923ffa1e587ec.bindTooltip(
+                `<div>
+                     Musée MAHICAO
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_118f03a9822dfa1afccb118979346cca = L.marker(
+                [14.461911999656525, -16.290938100183688],
+                {}
+            ).addTo(feature_group_b7f292dbad99e4e095252b3028886d30);
+        
+    
+            var icon_28d65fdd172c61aecc49081115ac923f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_118f03a9822dfa1afccb118979346cca.setIcon(icon_28d65fdd172c61aecc49081115ac923f);
+        
+    
+        var popup_012e101217f8c09389eb8bb1c05bd644 = L.popup({"maxWidth": 250});
+
+        
+            var html_5406ffb5de33122646886cced215cfa1 = $(`<div id="html_5406ffb5de33122646886cced215cfa1" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Maison royale de Diakhao</strong><br>             <em>Historique</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_012e101217f8c09389eb8bb1c05bd644.setContent(html_5406ffb5de33122646886cced215cfa1);
+        
+
+        marker_118f03a9822dfa1afccb118979346cca.bindPopup(popup_012e101217f8c09389eb8bb1c05bd644)
+        ;
+
+        
+    
+    
+            marker_118f03a9822dfa1afccb118979346cca.bindTooltip(
+                `<div>
+                     Maison royale de Diakhao
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1e25f00f19af93bb9a27bb168e02fc50 = L.marker(
+                [12.883688099476583, -15.59433880018781],
+                {}
+            ).addTo(feature_group_b7f292dbad99e4e095252b3028886d30);
+        
+    
+            var icon_26da56bc532151903d056eeb07807098 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_1e25f00f19af93bb9a27bb168e02fc50.setIcon(icon_26da56bc532151903d056eeb07807098);
+        
+    
+        var popup_68690c7d9c10981b5339aa4c83097007 = L.popup({"maxWidth": 250});
+
+        
+            var html_63f407b573b6cf6392a1daa5ad79d8de = $(`<div id="html_63f407b573b6cf6392a1daa5ad79d8de" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Fort Pinet Laprade</strong><br>             <em>Historique</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_68690c7d9c10981b5339aa4c83097007.setContent(html_63f407b573b6cf6392a1daa5ad79d8de);
+        
+
+        marker_1e25f00f19af93bb9a27bb168e02fc50.bindPopup(popup_68690c7d9c10981b5339aa4c83097007)
+        ;
+
+        
+    
+    
+            marker_1e25f00f19af93bb9a27bb168e02fc50.bindTooltip(
+                `<div>
+                     Fort Pinet Laprade
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2806c6274f01295840ab11e250bd0191 = L.marker(
+                [12.455207399515894, -16.772915499611084],
+                {}
+            ).addTo(feature_group_b7f292dbad99e4e095252b3028886d30);
+        
+    
+            var icon_53655a3cfbb0794733092ef44d7306ba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_2806c6274f01295840ab11e250bd0191.setIcon(icon_53655a3cfbb0794733092ef44d7306ba);
+        
+    
+        var popup_05333e7c543429fd8a36fb22b109e88d = L.popup({"maxWidth": 250});
+
+        
+            var html_2afe7e5c2c3f71523ef9fce224ba601f = $(`<div id="html_2afe7e5c2c3f71523ef9fce224ba601f" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Musée Sangawatt</strong><br>             <em>Historique</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_05333e7c543429fd8a36fb22b109e88d.setContent(html_2afe7e5c2c3f71523ef9fce224ba601f);
+        
+
+        marker_2806c6274f01295840ab11e250bd0191.bindPopup(popup_05333e7c543429fd8a36fb22b109e88d)
+        ;
+
+        
+    
+    
+            marker_2806c6274f01295840ab11e250bd0191.bindTooltip(
+                `<div>
+                     Musée Sangawatt
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3f15bd55f96c9c793409bbf467cb4755 = L.marker(
+                [12.535836199344233, -16.355488599858912],
+                {}
+            ).addTo(feature_group_b7f292dbad99e4e095252b3028886d30);
+        
+    
+            var icon_c82ba3e0f14cffcd8ffcf561db092822 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_3f15bd55f96c9c793409bbf467cb4755.setIcon(icon_c82ba3e0f14cffcd8ffcf561db092822);
+        
+    
+        var popup_d7c470c32f3e5710d7965e00c8580ebe = L.popup({"maxWidth": 250});
+
+        
+            var html_4c136a0c15c9336417850bc62484675d = $(`<div id="html_4c136a0c15c9336417850bc62484675d" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Musée de Brin</strong><br>             <em>Historique</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_d7c470c32f3e5710d7965e00c8580ebe.setContent(html_4c136a0c15c9336417850bc62484675d);
+        
+
+        marker_3f15bd55f96c9c793409bbf467cb4755.bindPopup(popup_d7c470c32f3e5710d7965e00c8580ebe)
+        ;
+
+        
+    
+    
+            marker_3f15bd55f96c9c793409bbf467cb4755.bindTooltip(
+                `<div>
+                     Musée de Brin
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5152d7fdd09d16089cb87b54292eb9dc = L.marker(
+                [13.777460100253837, -13.669377500152569],
+                {}
+            ).addTo(feature_group_b7f292dbad99e4e095252b3028886d30);
+        
+    
+            var icon_77f75acff42f7224166c2142f1585af1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_5152d7fdd09d16089cb87b54292eb9dc.setIcon(icon_77f75acff42f7224166c2142f1585af1);
+        
+    
+        var popup_f10a19f47aa5be1c744c5c9830cec402 = L.popup({"maxWidth": 250});
+
+        
+            var html_50ce817baaaf08754d9980e2653e41fc = $(`<div id="html_50ce817baaaf08754d9980e2653e41fc" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Prefecture de Tambacounda</strong><br>             <em>Historique</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_f10a19f47aa5be1c744c5c9830cec402.setContent(html_50ce817baaaf08754d9980e2653e41fc);
+        
+
+        marker_5152d7fdd09d16089cb87b54292eb9dc.bindPopup(popup_f10a19f47aa5be1c744c5c9830cec402)
+        ;
+
+        
+    
+    
+            marker_5152d7fdd09d16089cb87b54292eb9dc.bindTooltip(
+                `<div>
+                     Prefecture de Tambacounda
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_35f7f0ad4d90d6751984dd94ec982d91 = L.marker(
+                [14.899960400197491, -12.456556900060976],
+                {}
+            ).addTo(feature_group_b7f292dbad99e4e095252b3028886d30);
+        
+    
+            var icon_e5b23f7f9c52b757207da7f46102343f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_35f7f0ad4d90d6751984dd94ec982d91.setIcon(icon_e5b23f7f9c52b757207da7f46102343f);
+        
+    
+        var popup_6a0773ec0ca6cd8ff5dbfa0d59b48155 = L.popup({"maxWidth": 250});
+
+        
+            var html_7121b9ead3232d2a93159bc622aea26c = $(`<div id="html_7121b9ead3232d2a93159bc622aea26c" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Pavillon René Caillé</strong><br>             <em>Historique</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_6a0773ec0ca6cd8ff5dbfa0d59b48155.setContent(html_7121b9ead3232d2a93159bc622aea26c);
+        
+
+        marker_35f7f0ad4d90d6751984dd94ec982d91.bindPopup(popup_6a0773ec0ca6cd8ff5dbfa0d59b48155)
+        ;
+
+        
+    
+    
+            marker_35f7f0ad4d90d6751984dd94ec982d91.bindTooltip(
+                `<div>
+                     Pavillon René Caillé
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_de66d7a1efc9fa6d3959afb1d1f9f965 = L.marker(
+                [14.757058602523445, -17.36493812881142],
+                {}
+            ).addTo(feature_group_b7f292dbad99e4e095252b3028886d30);
+        
+    
+            var icon_620deb96fd51a220c2af3796960c2fd5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_de66d7a1efc9fa6d3959afb1d1f9f965.setIcon(icon_620deb96fd51a220c2af3796960c2fd5);
+        
+    
+        var popup_857afd74c317d9a2b653aee17e5daa9d = L.popup({"maxWidth": 250});
+
+        
+            var html_6d9df3d780e07b692f839ef0402cf029 = $(`<div id="html_6d9df3d780e07b692f839ef0402cf029" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Thiaroye 44</strong><br>             <em>Historique</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_857afd74c317d9a2b653aee17e5daa9d.setContent(html_6d9df3d780e07b692f839ef0402cf029);
+        
+
+        marker_de66d7a1efc9fa6d3959afb1d1f9f965.bindPopup(popup_857afd74c317d9a2b653aee17e5daa9d)
+        ;
+
+        
+    
+    
+            marker_de66d7a1efc9fa6d3959afb1d1f9f965.bindTooltip(
+                `<div>
+                     Thiaroye 44
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1226aa3f1e43e96959cfc134f29f9daf = L.marker(
+                [14.102524518306083, -16.36924716066223],
+                {}
+            ).addTo(feature_group_b7f292dbad99e4e095252b3028886d30);
+        
+    
+            var icon_14955f7ecadfed8dc08d713c3cd4eaaa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_1226aa3f1e43e96959cfc134f29f9daf.setIcon(icon_14955f7ecadfed8dc08d713c3cd4eaaa);
+        
+    
+        var popup_2e5ba082e3568aa11df32fce095e1215 = L.popup({"maxWidth": 250});
+
+        
+            var html_aecc50842b5521ba88a0b0981641a00c = $(`<div id="html_aecc50842b5521ba88a0b0981641a00c" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Djilor Djidiack</strong><br>             <em>Historique</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_2e5ba082e3568aa11df32fce095e1215.setContent(html_aecc50842b5521ba88a0b0981641a00c);
+        
+
+        marker_1226aa3f1e43e96959cfc134f29f9daf.bindPopup(popup_2e5ba082e3568aa11df32fce095e1215)
+        ;
+
+        
+    
+    
+            marker_1226aa3f1e43e96959cfc134f29f9daf.bindTooltip(
+                `<div>
+                     Djilor Djidiack
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6d3c416420da5a29a42743664b839db8 = L.marker(
+                [14.73325628228578, -17.288919320303606],
+                {}
+            ).addTo(feature_group_b7f292dbad99e4e095252b3028886d30);
+        
+    
+            var icon_ed8e8116666f32d922e76bd0d791eb6e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_6d3c416420da5a29a42743664b839db8.setIcon(icon_ed8e8116666f32d922e76bd0d791eb6e);
+        
+    
+        var popup_821ac26904ff2a1933e21a0cfb2396c3 = L.popup({"maxWidth": 250});
+
+        
+            var html_923d56856cc01a8b5c2698b9cdd64b6c = $(`<div id="html_923d56856cc01a8b5c2698b9cdd64b6c" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Vieux Rufisque</strong><br>             <em>Historique</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_821ac26904ff2a1933e21a0cfb2396c3.setContent(html_923d56856cc01a8b5c2698b9cdd64b6c);
+        
+
+        marker_6d3c416420da5a29a42743664b839db8.bindPopup(popup_821ac26904ff2a1933e21a0cfb2396c3)
+        ;
+
+        
+    
+    
+            marker_6d3c416420da5a29a42743664b839db8.bindTooltip(
+                `<div>
+                     Vieux Rufisque
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_23a0b739553487e343e54a4694df43d1 = L.marker(
+                [16.03015309576143, -16.5047858761218],
+                {}
+            ).addTo(feature_group_b7f292dbad99e4e095252b3028886d30);
+        
+    
+            var icon_5e90ab716fb3e773d6b27d4a8ff32323 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_23a0b739553487e343e54a4694df43d1.setIcon(icon_5e90ab716fb3e773d6b27d4a8ff32323);
+        
+    
+        var popup_2833696ff46fea7222396408c718021e = L.popup({"maxWidth": 250});
+
+        
+            var html_85d9b218ea8ea0bead323408789706c4 = $(`<div id="html_85d9b218ea8ea0bead323408789706c4" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Folie de Baron Roger</strong><br>             <em>Historique</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_2833696ff46fea7222396408c718021e.setContent(html_85d9b218ea8ea0bead323408789706c4);
+        
+
+        marker_23a0b739553487e343e54a4694df43d1.bindPopup(popup_2833696ff46fea7222396408c718021e)
+        ;
+
+        
+    
+    
+            marker_23a0b739553487e343e54a4694df43d1.bindTooltip(
+                `<div>
+                     Folie de Baron Roger
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_318bee9b7faefbf444065f81af7b203b = L.marker(
+                [15.842562675426365, -13.812211036322564],
+                {}
+            ).addTo(feature_group_b7f292dbad99e4e095252b3028886d30);
+        
+    
+            var icon_8a844073b9125af73f92b9ad8cfe8cf8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_318bee9b7faefbf444065f81af7b203b.setIcon(icon_8a844073b9125af73f92b9ad8cfe8cf8);
+        
+    
+        var popup_c5ffba838c79cdf25481cb53d925242d = L.popup({"maxWidth": 250});
+
+        
+            var html_e9f99e8db08f9d983eccd380ac2592dd = $(`<div id="html_e9f99e8db08f9d983eccd380ac2592dd" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Agnam (Musée peulh)</strong><br>             <em>Historique</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_c5ffba838c79cdf25481cb53d925242d.setContent(html_e9f99e8db08f9d983eccd380ac2592dd);
+        
+
+        marker_318bee9b7faefbf444065f81af7b203b.bindPopup(popup_c5ffba838c79cdf25481cb53d925242d)
+        ;
+
+        
+    
+    
+            marker_318bee9b7faefbf444065f81af7b203b.bindTooltip(
+                `<div>
+                     Agnam (Musée peulh)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_452842cc79d07eeca03422ca410864d0 = L.marker(
+                [14.66785960030385, -17.39892819983682],
+                {}
+            ).addTo(feature_group_b7f292dbad99e4e095252b3028886d30);
+        
+    
+            var icon_ae1bec130c7b5cbd96eddb1b40caade3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_452842cc79d07eeca03422ca410864d0.setIcon(icon_ae1bec130c7b5cbd96eddb1b40caade3);
+        
+    
+        var popup_b18c420f89493dcc5903fb40f8c9e0a1 = L.popup({"maxWidth": 250});
+
+        
+            var html_42cd35b4eb1c7668137dbfd926515c45 = $(`<div id="html_42cd35b4eb1c7668137dbfd926515c45" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Île de Gorée</strong><br>             <em>Historique</em><br>             Patrimoine mondial de l'UNESCO, l'île de Gorée est un lieu de mémoire important de la traite négrièr...         </div>         </div>`)[0];
+            popup_b18c420f89493dcc5903fb40f8c9e0a1.setContent(html_42cd35b4eb1c7668137dbfd926515c45);
+        
+
+        marker_452842cc79d07eeca03422ca410864d0.bindPopup(popup_b18c420f89493dcc5903fb40f8c9e0a1)
+        ;
+
+        
+    
+    
+            marker_452842cc79d07eeca03422ca410864d0.bindTooltip(
+                `<div>
+                     Île de Gorée
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0d1d6623f75a803211f32e63745e7529 = L.marker(
+                [16.027713400024858, -16.504381900059528],
+                {}
+            ).addTo(feature_group_b7f292dbad99e4e095252b3028886d30);
+        
+    
+            var icon_ede13c392d7120950bb65dc451c603d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_0d1d6623f75a803211f32e63745e7529.setIcon(icon_ede13c392d7120950bb65dc451c603d7);
+        
+    
+        var popup_392e2e919fee3f7ceb81b42c43cc717f = L.popup({"maxWidth": 250});
+
+        
+            var html_8d756b5f04dc51546910b5fca4090aae = $(`<div id="html_8d756b5f04dc51546910b5fca4090aae" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Île Saint-Louis</strong><br>             <em>Historique</em><br>             Située dans le nord du Sénégal, Saint-Louis est une île inscrite au patrimoine mondial de l'UNESCO p...         </div>         </div>`)[0];
+            popup_392e2e919fee3f7ceb81b42c43cc717f.setContent(html_8d756b5f04dc51546910b5fca4090aae);
+        
+
+        marker_0d1d6623f75a803211f32e63745e7529.bindPopup(popup_392e2e919fee3f7ceb81b42c43cc717f)
+        ;
+
+        
+    
+    
+            marker_0d1d6623f75a803211f32e63745e7529.bindTooltip(
+                `<div>
+                     Île Saint-Louis
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3b778b56a4a062df5ff9df0ae95033d4 = L.marker(
+                [14.72296482962941, -17.491661048763962],
+                {}
+            ).addTo(feature_group_b7f292dbad99e4e095252b3028886d30);
+        
+    
+            var icon_0f48b935b87933314f30afb5c2218f56 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_3b778b56a4a062df5ff9df0ae95033d4.setIcon(icon_0f48b935b87933314f30afb5c2218f56);
+        
+    
+        var popup_5b3d9cdaf9d706ef2e493fffba43613b = L.popup({"maxWidth": 250});
+
+        
+            var html_ad928ca53c4642b37c2bd9ff1073ac4c = $(`<div id="html_ad928ca53c4642b37c2bd9ff1073ac4c" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Monument de le Renaissance Africaine</strong><br>             <em>Historique</em><br>             Ce monument colossal situé à Dakar symbolise la fierté et la résilience de l’Afrique. Il offre une v...         </div>         </div>`)[0];
+            popup_5b3d9cdaf9d706ef2e493fffba43613b.setContent(html_ad928ca53c4642b37c2bd9ff1073ac4c);
+        
+
+        marker_3b778b56a4a062df5ff9df0ae95033d4.bindPopup(popup_5b3d9cdaf9d706ef2e493fffba43613b)
+        ;
+
+        
+    
+    
+            marker_3b778b56a4a062df5ff9df0ae95033d4.bindTooltip(
+                `<div>
+                     Monument de le Renaissance Africaine
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_fd283e665f0104468d4a8b1ae9f85deb = L.featureGroup(
+                {}
+            ).addTo(map_6801f85eb88eb1952a30a7b966a55958);
+        
+    
+            var marker_fcab5eadc79812fc98baeb30d77fd228 = L.marker(
+                [14.155584099830333, -16.825545799464816],
+                {}
+            ).addTo(feature_group_fd283e665f0104468d4a8b1ae9f85deb);
+        
+    
+            var icon_163033384c545226c385d3b178af8ffc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_fcab5eadc79812fc98baeb30d77fd228.setIcon(icon_163033384c545226c385d3b178af8ffc);
+        
+    
+        var popup_d5079b245b69c1e6f6275d5cc1b7e152 = L.popup({"maxWidth": 250});
+
+        
+            var html_9e290753232a694e7230abf084faf35d = $(`<div id="html_9e290753232a694e7230abf084faf35d" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Cimetière de Fadiouth</strong><br>             <em>Religieux</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_d5079b245b69c1e6f6275d5cc1b7e152.setContent(html_9e290753232a694e7230abf084faf35d);
+        
+
+        marker_fcab5eadc79812fc98baeb30d77fd228.bindPopup(popup_d5079b245b69c1e6f6275d5cc1b7e152)
+        ;
+
+        
+    
+    
+            marker_fcab5eadc79812fc98baeb30d77fd228.bindTooltip(
+                `<div>
+                     Cimetière de Fadiouth
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3850bda3f838f47dccb4ab9ac6328f38 = L.marker(
+                [14.83202899960621, -15.885218999195086],
+                {}
+            ).addTo(feature_group_fd283e665f0104468d4a8b1ae9f85deb);
+        
+    
+            var icon_9aea55de97f03da465bd78905e6c7c0e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_3850bda3f838f47dccb4ab9ac6328f38.setIcon(icon_9aea55de97f03da465bd78905e6c7c0e);
+        
+    
+        var popup_6d7544843064ac3c48c358e2ff63b04b = L.popup({"maxWidth": 250});
+
+        
+            var html_5b5f1f573d8ef22398562f01674b9af5 = $(`<div id="html_5b5f1f573d8ef22398562f01674b9af5" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Résidence Khadim Rassoul</strong><br>             <em>Religieux</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_6d7544843064ac3c48c358e2ff63b04b.setContent(html_5b5f1f573d8ef22398562f01674b9af5);
+        
+
+        marker_3850bda3f838f47dccb4ab9ac6328f38.bindPopup(popup_6d7544843064ac3c48c358e2ff63b04b)
+        ;
+
+        
+    
+    
+            marker_3850bda3f838f47dccb4ab9ac6328f38.bindTooltip(
+                `<div>
+                     Résidence Khadim Rassoul
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_21e247516e564cfc1010a8b80e55e0bb = L.marker(
+                [14.864236500337375, -15.873615099964159],
+                {}
+            ).addTo(feature_group_fd283e665f0104468d4a8b1ae9f85deb);
+        
+    
+            var icon_215a6e680e523119cb94d8ca8431a0b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_21e247516e564cfc1010a8b80e55e0bb.setIcon(icon_215a6e680e523119cb94d8ca8431a0b6);
+        
+    
+        var popup_2f923e82f58e40d6ac1c74ee199d0810 = L.popup({"maxWidth": 250});
+
+        
+            var html_642db57434d53806e68357560ddb51da = $(`<div id="html_642db57434d53806e68357560ddb51da" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Daaray Kamil</strong><br>             <em>Religieux</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_2f923e82f58e40d6ac1c74ee199d0810.setContent(html_642db57434d53806e68357560ddb51da);
+        
+
+        marker_21e247516e564cfc1010a8b80e55e0bb.bindPopup(popup_2f923e82f58e40d6ac1c74ee199d0810)
+        ;
+
+        
+    
+    
+            marker_21e247516e564cfc1010a8b80e55e0bb.bindTooltip(
+                `<div>
+                     Daaray Kamil
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0bc881fe122551432ffd72fc8db2cb97 = L.marker(
+                [14.863176599397729, -15.87582220062905],
+                {}
+            ).addTo(feature_group_fd283e665f0104468d4a8b1ae9f85deb);
+        
+    
+            var icon_f2d87566e0bee5b3e483616ba2c4785b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_0bc881fe122551432ffd72fc8db2cb97.setIcon(icon_f2d87566e0bee5b3e483616ba2c4785b);
+        
+    
+        var popup_bec1419eaabca14f95fa0cbb3f367c07 = L.popup({"maxWidth": 250});
+
+        
+            var html_9fea68a9b766c9552389e3e33b1b88b4 = $(`<div id="html_9fea68a9b766c9552389e3e33b1b88b4" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Mosquée de Touba</strong><br>             <em>Religieux</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_bec1419eaabca14f95fa0cbb3f367c07.setContent(html_9fea68a9b766c9552389e3e33b1b88b4);
+        
+
+        marker_0bc881fe122551432ffd72fc8db2cb97.bindPopup(popup_bec1419eaabca14f95fa0cbb3f367c07)
+        ;
+
+        
+    
+    
+            marker_0bc881fe122551432ffd72fc8db2cb97.bindTooltip(
+                `<div>
+                     Mosquée de Touba
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8191cb0efe4da1f4f7be6c239eae61c3 = L.marker(
+                [14.952453399952962, -16.8124913006432],
+                {}
+            ).addTo(feature_group_fd283e665f0104468d4a8b1ae9f85deb);
+        
+    
+            var icon_9f0a1e9bc6e2df870f6baa707ea93761 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_8191cb0efe4da1f4f7be6c239eae61c3.setIcon(icon_9f0a1e9bc6e2df870f6baa707ea93761);
+        
+    
+        var popup_430483c54b040721c327a8c88764b295 = L.popup({"maxWidth": 250});
+
+        
+            var html_62d125950180a529e07c059af1a98e7c = $(`<div id="html_62d125950180a529e07c059af1a98e7c" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Mosquée de Tivaouane</strong><br>             <em>Religieux</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_430483c54b040721c327a8c88764b295.setContent(html_62d125950180a529e07c059af1a98e7c);
+        
+
+        marker_8191cb0efe4da1f4f7be6c239eae61c3.bindPopup(popup_430483c54b040721c327a8c88764b295)
+        ;
+
+        
+    
+    
+            marker_8191cb0efe4da1f4f7be6c239eae61c3.bindTooltip(
+                `<div>
+                     Mosquée de Tivaouane
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bf6ad5d95a7fedfcb555a49918d8b9df = L.marker(
+                [14.861636700369372, -15.876998899948406],
+                {}
+            ).addTo(feature_group_fd283e665f0104468d4a8b1ae9f85deb);
+        
+    
+            var icon_b46f86818dcd824d140c9eb7c4c33673 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_bf6ad5d95a7fedfcb555a49918d8b9df.setIcon(icon_b46f86818dcd824d140c9eb7c4c33673);
+        
+    
+        var popup_1eb52e6f80bf58bf7d2161166fa069f9 = L.popup({"maxWidth": 250});
+
+        
+            var html_eb2dc986b3994a53b3fe364ae17fc8d6 = $(`<div id="html_eb2dc986b3994a53b3fe364ae17fc8d6" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Résidence Cheikhoul Khadim</strong><br>             <em>Religieux</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_1eb52e6f80bf58bf7d2161166fa069f9.setContent(html_eb2dc986b3994a53b3fe364ae17fc8d6);
+        
+
+        marker_bf6ad5d95a7fedfcb555a49918d8b9df.bindPopup(popup_1eb52e6f80bf58bf7d2161166fa069f9)
+        ;
+
+        
+    
+    
+            marker_bf6ad5d95a7fedfcb555a49918d8b9df.bindTooltip(
+                `<div>
+                     Résidence Cheikhoul Khadim
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_30bfd1343442c8afb24a599b8ff48b25 = L.marker(
+                [14.778477200212073, -17.124107599700796],
+                {}
+            ).addTo(feature_group_fd283e665f0104468d4a8b1ae9f85deb);
+        
+    
+            var icon_01200e2154e9e32e1c83f528e7aca551 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_30bfd1343442c8afb24a599b8ff48b25.setIcon(icon_01200e2154e9e32e1c83f528e7aca551);
+        
+    
+        var popup_f1237ed8a0e1fc47eec96f5ee018a506 = L.popup({"maxWidth": 250});
+
+        
+            var html_afa624ae4820a4059b52262b393772de = $(`<div id="html_afa624ae4820a4059b52262b393772de" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Abbaye du Cœur-Immaculé de Keur Moussa</strong><br>             <em>Religieux</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_f1237ed8a0e1fc47eec96f5ee018a506.setContent(html_afa624ae4820a4059b52262b393772de);
+        
+
+        marker_30bfd1343442c8afb24a599b8ff48b25.bindPopup(popup_f1237ed8a0e1fc47eec96f5ee018a506)
+        ;
+
+        
+    
+    
+            marker_30bfd1343442c8afb24a599b8ff48b25.bindTooltip(
+                `<div>
+                     Abbaye du Cœur-Immaculé de Keur Moussa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_02fc1bf499f25149ea1f5ed3f1be29ca = L.marker(
+                [14.554642899636654, -17.111576399390465],
+                {}
+            ).addTo(feature_group_fd283e665f0104468d4a8b1ae9f85deb);
+        
+    
+            var icon_9db9235a74b2a5a5f80e41369d6ac70e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_02fc1bf499f25149ea1f5ed3f1be29ca.setIcon(icon_9db9235a74b2a5a5f80e41369d6ac70e);
+        
+    
+        var popup_a40f334c4e35ff86931dfbf7a24e1175 = L.popup({"maxWidth": 250});
+
+        
+            var html_daf373b1f509620c688fb4beff671dd7 = $(`<div id="html_daf373b1f509620c688fb4beff671dd7" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Basilique Notre-Dame de la Délivrande de Popenguine</strong><br>             <em>Religieux</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_a40f334c4e35ff86931dfbf7a24e1175.setContent(html_daf373b1f509620c688fb4beff671dd7);
+        
+
+        marker_02fc1bf499f25149ea1f5ed3f1be29ca.bindPopup(popup_a40f334c4e35ff86931dfbf7a24e1175)
+        ;
+
+        
+    
+    
+            marker_02fc1bf499f25149ea1f5ed3f1be29ca.bindTooltip(
+                `<div>
+                     Basilique Notre-Dame de la Délivrande de Popenguine
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d927c1d61067f40759cad9f6bb7117cf = L.marker(
+                [15.924797899593178, -13.519916400628016],
+                {}
+            ).addTo(feature_group_fd283e665f0104468d4a8b1ae9f85deb);
+        
+    
+            var icon_8dd0ed415b979003188d13582195dde2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_d927c1d61067f40759cad9f6bb7117cf.setIcon(icon_8dd0ed415b979003188d13582195dde2);
+        
+    
+        var popup_2ba83df57b35279bdf1f88d7cd17fd6c = L.popup({"maxWidth": 250});
+
+        
+            var html_cfe9d9d87dd78d1371d5e4cf6f6eae71 = $(`<div id="html_cfe9d9d87dd78d1371d5e4cf6f6eae71" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Grande Mosquée Kobilo</strong><br>             <em>Religieux</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_2ba83df57b35279bdf1f88d7cd17fd6c.setContent(html_cfe9d9d87dd78d1371d5e4cf6f6eae71);
+        
+
+        marker_d927c1d61067f40759cad9f6bb7117cf.bindPopup(popup_2ba83df57b35279bdf1f88d7cd17fd6c)
+        ;
+
+        
+    
+    
+            marker_d927c1d61067f40759cad9f6bb7117cf.bindTooltip(
+                `<div>
+                     Grande Mosquée Kobilo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1babf33f3ea4707f6bd13f6190899360 = L.marker(
+                [15.938853125035465, -15.943207075085066],
+                {}
+            ).addTo(feature_group_fd283e665f0104468d4a8b1ae9f85deb);
+        
+    
+            var icon_89ba80c81eaca94dbdb7b11c5d66bfc6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_1babf33f3ea4707f6bd13f6190899360.setIcon(icon_89ba80c81eaca94dbdb7b11c5d66bfc6);
+        
+    
+        var popup_50e38a5b1eb105dc8314dc86fcc71e55 = L.popup({"maxWidth": 250});
+
+        
+            var html_3de9d6c20784c2d068f95173638a4b5c = $(`<div id="html_3de9d6c20784c2d068f95173638a4b5c" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Diewol</strong><br>             <em>Religieux</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_50e38a5b1eb105dc8314dc86fcc71e55.setContent(html_3de9d6c20784c2d068f95173638a4b5c);
+        
+
+        marker_1babf33f3ea4707f6bd13f6190899360.bindPopup(popup_50e38a5b1eb105dc8314dc86fcc71e55)
+        ;
+
+        
+    
+    
+            marker_1babf33f3ea4707f6bd13f6190899360.bindTooltip(
+                `<div>
+                     Diewol
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b3f9240060462bdf293b760438ac21e3 = L.marker(
+                [14.160409031967546, -16.17268775333057],
+                {}
+            ).addTo(feature_group_fd283e665f0104468d4a8b1ae9f85deb);
+        
+    
+            var icon_67e8f6cd20721c29943e756a3055fb68 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_b3f9240060462bdf293b760438ac21e3.setIcon(icon_67e8f6cd20721c29943e756a3055fb68);
+        
+    
+        var popup_cc0b13b135c5ae8b35af04d231fd5e58 = L.popup({"maxWidth": 250});
+
+        
+            var html_edee0004957ceab252e0cc8a86168e09 = $(`<div id="html_edee0004957ceab252e0cc8a86168e09" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Médina Baye</strong><br>             <em>Religieux</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_cc0b13b135c5ae8b35af04d231fd5e58.setContent(html_edee0004957ceab252e0cc8a86168e09);
+        
+
+        marker_b3f9240060462bdf293b760438ac21e3.bindPopup(popup_cc0b13b135c5ae8b35af04d231fd5e58)
+        ;
+
+        
+    
+    
+            marker_b3f9240060462bdf293b760438ac21e3.bindTooltip(
+                `<div>
+                     Médina Baye
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cce306599b9ac22760ee8ff7b39aa242 = L.marker(
+                [13.709223611513616, -15.819099166203719],
+                {}
+            ).addTo(feature_group_fd283e665f0104468d4a8b1ae9f85deb);
+        
+    
+            var icon_f721243e028f9e40bcdeed3c1de2569e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_cce306599b9ac22760ee8ff7b39aa242.setIcon(icon_f721243e028f9e40bcdeed3c1de2569e);
+        
+    
+        var popup_8e97871314dc022179e600264778a635 = L.popup({"maxWidth": 250});
+
+        
+            var html_8b312c2d50de3d2cde7888f2c03e6f18 = $(`<div id="html_8b312c2d50de3d2cde7888f2c03e6f18" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Porokhane</strong><br>             <em>Religieux</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_8e97871314dc022179e600264778a635.setContent(html_8b312c2d50de3d2cde7888f2c03e6f18);
+        
+
+        marker_cce306599b9ac22760ee8ff7b39aa242.bindPopup(popup_8e97871314dc022179e600264778a635)
+        ;
+
+        
+    
+    
+            marker_cce306599b9ac22760ee8ff7b39aa242.bindTooltip(
+                `<div>
+                     Porokhane
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b9a17e171d580297f07be0ddb172f9a3 = L.marker(
+                [15.80788135568316, -13.569190024787396],
+                {}
+            ).addTo(feature_group_fd283e665f0104468d4a8b1ae9f85deb);
+        
+    
+            var icon_9ba7880025424290a34d98433f0221bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_b9a17e171d580297f07be0ddb172f9a3.setIcon(icon_9ba7880025424290a34d98433f0221bd);
+        
+    
+        var popup_3a30c134201502e6e47d38497a4202b7 = L.popup({"maxWidth": 250});
+
+        
+            var html_35a4a45411ef2b6515d7dcb6ae7cdd89 = $(`<div id="html_35a4a45411ef2b6515d7dcb6ae7cdd89" style="width: 100.0%; height: 100.0%;">         <div style="width: 200px; font-size: 12px; line-height: 1.4;">             <strong>Dabia-Kobilo</strong><br>             <em>Religieux</em><br>             Un site incontournable offrant une expérience unique grâce à sa richesse naturelle ou culturelle. Pa...         </div>         </div>`)[0];
+            popup_3a30c134201502e6e47d38497a4202b7.setContent(html_35a4a45411ef2b6515d7dcb6ae7cdd89);
+        
+
+        marker_b9a17e171d580297f07be0ddb172f9a3.bindPopup(popup_3a30c134201502e6e47d38497a4202b7)
+        ;
+
+        
+    
+    
+            marker_b9a17e171d580297f07be0ddb172f9a3.bindTooltip(
+                `<div>
+                     Dabia-Kobilo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var layer_control_50aac939ca9945d5cc13aa363c950912 = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_223311be35a96fcc100a7c162abb21e1,
+                },
+                overlays :  {
+                    "\u003cspan style=\u0027color: green\u0027\u003eNaturel\u003c/span\u003e" : feature_group_e9492cdec394f97836723f21da745f77,
+                    "\u003cspan style=\u0027color: blue\u0027\u003eCulturel\u003c/span\u003e" : feature_group_55124d21a1cb9a96838b6db196be1ec3,
+                    "\u003cspan style=\u0027color: orange\u0027\u003eHistorique\u003c/span\u003e" : feature_group_b7f292dbad99e4e095252b3028886d30,
+                    "\u003cspan style=\u0027color: purple\u0027\u003eReligieux\u003c/span\u003e" : feature_group_fd283e665f0104468d4a8b1ae9f85deb,
+                },
+            };
+            L.control.layers(
+                layer_control_50aac939ca9945d5cc13aa363c950912.base_layers,
+                layer_control_50aac939ca9945d5cc13aa363c950912.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_6801f85eb88eb1952a30a7b966a55958);
+        
+</script>
+</html>
